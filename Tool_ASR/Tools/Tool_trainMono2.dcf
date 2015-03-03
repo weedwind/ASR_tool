@@ -1,0 +1,80 @@
+<BEGIN_config>
+
+<Comment>
+This tool trains a set of monophone HMMs.
+This tool is designed for large database which assumes that the phone transcriptions was obtained from the FA package
+Thus, the initialization mode is Flat Start.
+
+<BEGINtool_steps>
+
+% =============================== Global Settings ===========================================================================================
+
+Trace_on : y                                                 % y enables the progress report for each tool (default y)
+                                                             % n means only to show the current command line 
+
+Clean_up : y                                                 % y means to clean up the target HMM folder in each step (default n)
+LogDir :   Log                                               % This is the folder to store the progress log file.
+                                                             % A progress_trainMono2.log will be generated in this folder.
+% ================================ End Global Settings =======================================================================================
+
+% ================================ Next, Begin transcription prep ===============================================================================
+% ========================== The goal of this step is to delete "sp" first from transcriptions to initialize models =============================
+
+Trans_prep : y                                                    % Enable/Disable transcription prep. y/n
+    % --------------- Input and conf file needed------------------------
+PhoneMLF_sp :   labs\trainphone_sp.mlf                            % This is the phone MLF file with "sp" between words
+Conf_deleteSP : toolconfs\deleteSP.led                            % This conf file is to delete "sp" in the phone transcriptions
+    % ---------------- Output file generated ----------------------------
+PhoneMLF_nosp : labs\trainphone_nosp.mlf                          % This is the phone MLF file without "sp" between words
+PhoneList_nosp : lists\monophone_nosp                             % This is an hmmlist without "sp"
+                                                                  % You can also copy the same hmmlist from FA package to lists folder
+% ================================== End transcription prep ========================================================================================
+
+% ================================ Begin training monophones ==========================================================================================
+% --------------- Global settings for training --------------------------------------------------------------------------
+Train_on : y                                                      % Enable/disable training, y/n
+Feat_List : lists\train_featfile.lst                              % The feature file list is needed for any kind of training.
+Feat_List_ini: lists\train_featfile_ini.lst                       % This is the feature file list to initialize the training.
+numState : 3                                                      % This is the number of emitting states for each HMM. 
+numMixture : 1;2;4;6;8;12;16                                      % This is the mixture splitting sequence.(eg. 2;4;8 means to start from 2 mixtures then split to 4 and 8)
+Iteration :  3;5;5;6;6;7;7                                      % This is the number of iterations for each mixture splitting.
+Final_hmmfolder : hmms\fhmm_mono                                  % This is the folder to store final monophone HMMs
+% ------------------------ Initialization --------------------------------------------------------------------------------
+Init : y                                                          % Use global feature mean and variances to initialize each model, y/n
+Triphone_later : y                                                % Do you want to create triphone models after monophone models.
+                                                                    % if y: numMixture forced to 1.
+                                                                    % Mixture splitting will be performed in triphone training.
+% ----------------- Input for initialization -------------------------------------
+hmmList_nosp : lists\monophone_nosp                               % This is the monophone list without "sp" generated in the previous step.
+SrcDir_init : hmms\proto                                          % This is the source directory for the prototypes
+Conf_proto : toolconfs\puser.pcf                                  % This is the conf file for generating prototype HMMs. This file will be automatically generated.
+Conf_init : toolconfs\hcompv.conf                                 % This is the conf file for model initialization
+% ------------------ Output for initialization ------------------------------------
+TgtDir_init : hmms\hmm1                                           % This is the target directory to store the initialized models
+                                                                  % All the models are stored in a file called "hmmdefs"
+                                                                  % A macro file called "macros" is also created.
+% ----------------- End Initialization -------------------------------------------
+
+% ------------------------------ Embedded Training ----------------------------------------------------------------------------
+% --------------- Global settings for Embedded Training --------------------------
+Embed_train : y                                             % Enable/disable embedded training. y/n
+fix_sil : y                                                 % if sil model needs fixed, and create "sp" model
+fix_iter : 3                                                % This is the number of extra iterations needed after fixing sil and sp models
+embdOptStr : "-t 250.0 150.0 1000.0"                        % option for Embedded Training (with prunning threshold)
+% ----------------- Input for Embedded training -------------------------------------
+SrcDir_embd : hmms\hmm1                                     % This is the source directory to store the models before embedded training
+hmmList_nosp: lists\monophone_nosp                          % This is the monophone list without "sp"
+hmmList_sp : lists\monophone_sp                             % This is the monophone list with "sp"
+                                                            % This is used when fix_sil=y, or the models in the last run already include "sp"
+monoMLF_nosp : labs\trainphone_nosp.mlf                     % This is the phone MLF file without "sp"
+monoMLF_sp :   labs\trainphone_sp.mlf                       % This is the phone MLF file with "sp" 
+Conf_embd : toolconfs\herest.conf                           % This is the conf file for embedded training
+Conf_sil : toolconfs\sil.hed                                % This is the conf file to fix sil and sp
+% ----------------- Output for Embedded training ------------------------------------
+TgtDir_embd : hmms\hmm2                                      % This is the target directory to store the models after embedded training.
+Stat_embd :   toolconfs\hstats                               % This is a statistic file generated for later use
+% ------------------------------- End Embedded Training ---------------------------------
+
+% ==================================================== End Training for FA ==============================================================================================
+
+<ENDtool_steps>

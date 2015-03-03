@@ -1,0 +1,65 @@
+<BEGIN_config>
+
+<Comment>
+    write your comments here
+
+<BEGINtool_steps>
+
+% =============================== Global Settings ===========================================================================================
+
+Trace_on : y                                                 % y enables the progress report for each tool (default y)
+                                                             % n means only to show the current command line 
+
+Clean_up : y                                                 % y means to clean up the target folder in each step (default n)
+LogDir :   Log                                               % This is the folder to store the progress log file.
+                                                             % A progress.log will be generated in this folder.
+% === End Global Settings ===
+
+% ================================ Next, Begin Feature Extraction Module =====================================================================
+
+Feat_On : y                                                  % Enable/Disable feature extraction
+FrtEnd_opt : User                                            % Available frontend selection:
+                                                                 % HTK_MFCC           This is the MFCC frontend in HTK
+                                                                 % HTK_PLP            This is the PLP frontend in HTK
+                                                                 % User               This is the user designed frontend
+                                                                 % If none of the above, then HTK_MFCC will be the default one
+ 
+    % --------------- Common Input files needed by all front-ends ----------------%
+
+Wave_List : lists\train_wavefile.lst                             % You need to manually creates the wave file list in the folder "lists"
+
+    % --------------- Common Output files and associated folder for all front-ends-------------%
+
+Feat_folder : ..\data\train_feat                               % This is the folder to store generated features. This folder will be automatically generated
+Feat_List : lists\train_featfile.lst                               % A list of feature files will be generated for later use. 
+ 
+    % --------------- HTK_MFCC configuration ------------------ %
+   % Input Configuration file needed by HTK_MFCC
+ 
+Conf_MFCC :  toolconfs\hcopy_MFCC.conf                       % You need to manually creates the config file for HTK_MFCC in the folder "toolconfs"
+
+
+    % -------------- End HTK_MFCC ----------------------------- %
+
+    % -------------- HTK_PLP configuration -------------------- % 
+   % Input Configuration file needed by HTK_PLP
+
+Conf_PLP :  toolconfs\hcopy_PLP.conf                         %You need to manually creates the config file for HTK_PLP in the folder "toolconfs"
+
+   % -------------- End HTK_PLP -------------------------------%
+   
+   % -------------- User Defined DCTC/DCS Configuration ---------%
+       % Input Configuration file files needed by tfrontm
+
+Conf_tfrontm : tfront\tfrontm.dat                           % This is the config file for running tfrontm.exe in "tfront" folder 
+                                                            % You need to manually creates this folder first
+
+    % --------------- End User ----------------------------------- %
+
+% =============================== End Feature Extraction Module ====================================================================================
+    
+<ENDtool_steps>
+   
+   
+ 
+ 

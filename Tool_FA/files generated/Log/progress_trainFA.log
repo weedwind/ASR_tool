@@ -1,0 +1,23 @@
+____________________________________________________________________________________________________________________
+12-Jun-2014 03:41:37 ======Start Training Module for FA ('Tool_trainFA.dcf')
+--------------------------------------------------------------------------------------------------------------------
+First, prepare transcriptions for training
+Convert word transcriptions to word MLF
+Convert word MLF to phone MLF
+Training enabled
+numMixture=1;2;4;6;8;12;16, Iteration=3;5;6;7;7;7;7
+Start Initialization Using Global Mean and Variances
+ num_features=42, numState=3, numMixture=1;2;4;6;8;12;16
+Start Embedded Training
+sp model has not been introduced
+Current number of mixtures= 1
+Now fix silence model and introduce sp model
+Current number of mixture= 2
+Current number of mixture= 4
+Current number of mixture= 6
+Current number of mixture= 8
+Current number of mixture= 12
+Current number of mixture= 16
+Copy HMM models from hmms\hmm2 to hmms\fhmm
+------------------ Training Completed -----------------
+

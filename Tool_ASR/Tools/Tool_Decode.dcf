@@ -1,0 +1,91 @@
+<BEGIN_config>
+
+<Comment>
+This tool builds in two decoders.
+1. Hvite supports monophone and internal/cross word triphone HMM models.It is suitable for small vocabulary LM size.
+2. HDecode supports cross word triphone HMM models only, and is suitable for large vocabulary LM size.
+3. if both decoders are turned on, an error will be returned.
+
+<BEGINtool_steps>
+% =============================== Global Settings for both decoders ========================================================================
+
+Trace_on : y                                                 % y enables the progress report for each tool (default y)
+                                                             % n means only to show the current command line 
+
+Clean_up : y                                                 % y means to clean up the old output MLF file or lattice file
+LogDir :   Log                                               % This is the folder to store the progress log file.
+                                                             % A progress_decode.log will be generated in this folder.
+Decode_on : y                                                % Turn on decoding or not. y/n
+Feat_list : lists\test_featfile.lst                          % feature file list for both decoders.
+Feat_folder : ..\data\test_feat                              % Folder for test feature files (only needed for Hvite)
+Startword : SENT_START                                       % Specify start word of LM ( can not leave blank)
+Endword : SENT_END                                           % Specify end word of LM   ( can not leave blank)
+Result_folder : Results                                      % The folder for output MLF.
+Test_trslist : lists\test_wordtrs.lst                        % This is the ground truth transcription list (for computing accuracy).
+% ================================ End Global Settings =======================================================================================
+
+% =============================================== Hvite ======================================================================================
+% Note: 
+% 1. This decoder supports monophone and internal/crossword triphone HMMs.
+% 2. To use trigram, you must first use bigram.
+
+% ----------------------- Global Settings for Hvite-----------------------------------------
+Hvite_on : y                                                  % Turn on Hvite. y/n
+HMM_type : iwd                                                % HMM type: iwd or xwd or mono 
+Dict_hvite : dicts\dict863_tone_sp1                           % Dictionary file for decoding.
+HMM_folder_hvite : hmms\fhmmtri_inword                        % The folder for hmms. (matches HMM_type)
+HMM_list_hvite : lists\tiedlist_inword                        % HMM list for decoding. (matches HMM_type)
+Conf_iwd : toolconfs\hvite_iwd.conf                           % Conf file for decoding with internal word triphones (manually prepared)
+Conf_xwd : toolconfs\hvite_xwd.conf                           % Conf file for decoding with cross word triphones (manually prepared)
+Conf_mono : toolconfs\hvite_mono.conf                         % Conf file for decoding with monophones (manually prepared )
+HviteOptstring : "-t 220.0 -p 0.0 -s 12.0"                    % -t controls speed of the decoder.(the lower, the faster)
+                                                              % -s is the LM scale factor. Typical value 12-15 for large vocabulary.
+
+% ----------------------- Input for bigram LM ------------------------------------------------
+Bigram_on :y                                                   % Use bigram or not y/n
+Network : Networks\network                                     % This is the bigram network generated in the previous LM training step
+% ------------------------ Output for bigram LM -----------------------------------------------
+Rec_output_bg : result_bg.mlf                                  % This is the recogniser output MLF file name.
+Lattice_folder : ..\data\Lattice                               % This is the folder to store lattice
+Lattice_list : lists\latlist.lst                               % This is the lattice list.
+% ------------------------- End Bigram decoding ------------------------------------------------
+
+% ------------------------- Input for trigram LM ------------------------------------------------
+Trigram_on : n                                                 % Use trigram or not y/n
+Trigram : LMs\trigram_abc                                      % Specify trigram file path
+Latlist : lists\latlist.lst                                    % This is the lattice list generated in the bigram step
+Conf_rescore : toolconfs\hlrescore.conf                        % This is the conf. file for this step (automatically generated)
+HLrescore_Optstring : "-p 0.0 -s 12.0"                           % LM scale factor and word insertion penalty.
+% -------------------------- Output for trigram LM -----------------------------------------------
+Rec_output_tg : result_tg.mlf                                  % This is the recogniser output MLF file name
+
+% ================================================ End Hvite ======================================================================================
+
+% ================================================= HDecode ========================================================================================
+% Note:
+% 1. This decoder works only for cross word triphones.
+% 2. a "sp" model will be added automatically to each word. So, the dictionary should not contain "sp"
+% 3. "sil" model should only appear in the startword and endword entries.
+% 4. The language model should be in ARPA format, not in the word network format.
+% 5. It works directly with bigram and trigram.
+
+% ---------------------- Global Settings for HDecode -------------------------------------------
+HDecode_on : n                                                  % Turn on HDecode y/n
+Conf_hdecode : toolconfs\hdecode.conf                           % Conf file for HDecode (automatically generated)
+HdecodeOptstring : "-t 220.0 220.0 -p 0.0 -s 12.0"              % the same as those in Hvite
+Use_bigram : y                                                  % Use bigram to do decoding
+Use_trigram : n                                                 % Use trigram to do decoding   
+
+% ----------------------- Input for HDecode -----------------------------------------------------
+HMM_folder_hd : hmms\fhmmtri_xwd                                % The folder for cross word hmms
+HMM_list_hd : lists\tiedlist_xwd                                % HMM list for cross word triphones
+LM_bigram : LMs\bigram_abc                                      % bigram language model file path.
+LM_trigram : LMs\trigram_abc                                    % trigram language model file path. 
+Dict_hd : dicts\dict863_tone_nosp                               % Dictionary file for decoding (must be without sp). 
+% ------------------------ Output for HDecode ----------------------------------------------------
+Rec_hd_bg : result_hd_bg.mlf                                    % This is the bigram recogniser output MLF file name.
+Rec_hd_tg : result_hd_tg.mlf                                    % This is the trigram recogniser output MLF file name.
+% ================================================== End HDecode ====================================================================================  
+
+
+<ENDtool_steps>

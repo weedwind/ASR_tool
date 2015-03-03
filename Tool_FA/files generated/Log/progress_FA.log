@@ -1,0 +1,87 @@
+____________________________________________________________________________________________________________________
+12-Jun-2014 09:02:34 ======Start FA ('Tool_FA.dcf')
+--------------------------------------------------------------------------------------------------------------------
+ FA Enabled 
+FA_iteration=6, Embedded Training iteration=3;3;3;3;3;0, Dictionary=dicts\dict863_tone_sp1, hmmList=lists\monophone_sp, Word MLF=labs\word.mlf, Output=aligned_*.mlf
+Begin FA iteration 1; The output is labs\aligned_1.mlf
+Check how much change between FA iteration 1 and FA iteration 0
+
+HResults -A -T 1 -I labs\phone_sp.mlf -e ??? sil -e ??? sp lists\monophone_sp aligned_rec_1.mlf 
+====================== HTK Results Analysis =======================
+  Date: Thu Jun 12 09:14:28 2014
+  Ref : labs\phone_sp.mlf
+  Rec : aligned_rec_1.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=71.56 [H=24772, S=9844, N=34616]
+WORD: %Corr=98.74, Acc=98.74 [H=928933, D=0, S=11823, I=0, N=940756]
+===================================================================
+Now,begin refining models after FA iteration 1
+Begin FA iteration 2; The output is labs\aligned_2.mlf
+Check how much change between FA iteration 2 and FA iteration 1
+
+HResults -A -T 1 -I labs\aligned_1.mlf -e ??? sil -e ??? sp lists\monophone_sp aligned_rec_2.mlf 
+====================== HTK Results Analysis =======================
+  Date: Thu Jun 12 10:04:01 2014
+  Ref : labs\aligned_1.mlf
+  Rec : aligned_rec_2.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=90.82 [H=31438, S=3178, N=34616]
+WORD: %Corr=99.64, Acc=99.64 [H=937385, D=0, S=3371, I=0, N=940756]
+===================================================================
+Now,begin refining models after FA iteration 2
+Begin FA iteration 3; The output is labs\aligned_3.mlf
+Check how much change between FA iteration 3 and FA iteration 2
+
+HResults -A -T 1 -I labs\aligned_2.mlf -e ??? sil -e ??? sp lists\monophone_sp aligned_rec_3.mlf 
+====================== HTK Results Analysis =======================
+  Date: Thu Jun 12 10:44:41 2014
+  Ref : labs\aligned_2.mlf
+  Rec : aligned_rec_3.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=92.66 [H=32075, S=2541, N=34616]
+WORD: %Corr=99.72, Acc=99.72 [H=938118, D=0, S=2638, I=0, N=940756]
+===================================================================
+Now,begin refining models after FA iteration 3
+Begin FA iteration 4; The output is labs\aligned_4.mlf
+Check how much change between FA iteration 4 and FA iteration 3
+
+HResults -A -T 1 -I labs\aligned_3.mlf -e ??? sil -e ??? sp lists\monophone_sp aligned_rec_4.mlf 
+====================== HTK Results Analysis =======================
+  Date: Thu Jun 12 11:28:10 2014
+  Ref : labs\aligned_3.mlf
+  Rec : aligned_rec_4.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=94.13 [H=32584, S=2032, N=34616]
+WORD: %Corr=99.78, Acc=99.78 [H=938664, D=0, S=2092, I=0, N=940756]
+===================================================================
+Now,begin refining models after FA iteration 4
+Begin FA iteration 5; The output is labs\aligned_5.mlf
+Check how much change between FA iteration 5 and FA iteration 4
+
+HResults -A -T 1 -I labs\aligned_4.mlf -e ??? sil -e ??? sp lists\monophone_sp aligned_rec_5.mlf 
+====================== HTK Results Analysis =======================
+  Date: Thu Jun 12 12:09:58 2014
+  Ref : labs\aligned_4.mlf
+  Rec : aligned_rec_5.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=95.64 [H=33106, S=1510, N=34616]
+WORD: %Corr=99.84, Acc=99.84 [H=939213, D=0, S=1543, I=0, N=940756]
+===================================================================
+Now,begin refining models after FA iteration 5
+Begin FA iteration 6; The output is labs\aligned_6.mlf
+Check how much change between FA iteration 6 and FA iteration 5
+
+HResults -A -T 1 -I labs\aligned_5.mlf -e ??? sil -e ??? sp lists\monophone_sp aligned_rec_6.mlf 
+====================== HTK Results Analysis =======================
+  Date: Thu Jun 12 12:51:23 2014
+  Ref : labs\aligned_5.mlf
+  Rec : aligned_rec_6.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=96.94 [H=33557, S=1059, N=34616]
+WORD: %Corr=99.89, Acc=99.89 [H=939683, D=0, S=1073, I=0, N=940756]
+===================================================================
+No model refinement after FA iteration 6
+The refined models after FA iteration 6 is copied from iteration 5
+
+
+-----------------------Forced alignment and model refinement completed--------------------------

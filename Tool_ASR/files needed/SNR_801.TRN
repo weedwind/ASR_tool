@@ -1,0 +1,8 @@
+// Setup File for TRONTM
+// Except for the FILE_ID, the following variables need not be in a specific order
+
+FILE_ID:          TFRONT_SPEC  //  FILE_ID must be on the first line 
+SNR:              300           // signal-to-noise ratio (dB)
+FEAT_FILE:        tfront\CP_FEA13.INI
+FILE_TYPE:        HTK           // TYPEA1, TYPEB1, or HTK
+PARMTYPE:         USER            // This value is for parameter types for HTK

@@ -1,0 +1,79 @@
+<BEGIN_config>
+
+<Comment>
+This tool trains a set of cross word triphone HMMs.
+This tool is designed for large set where a "sp" is inserted after each word
+Thus, when you created the monophone transcriptions, a "sp" is required after each word  
+
+<BEGINtool_steps>
+% =============================== Global Settings ===========================================================================================
+
+Trace_on : y                                                 % y enables the progress report for each tool (default y)
+                                                             % n means only to show the current command line 
+
+Clean_up : y                                                 % y means to clean up the target HMM folder in each step (default n)
+LogDir :   Log                                               % This is the folder to store the progress log file.
+                                                             % A progress_trainTri.log will be generated in this folder.
+% ================================ End Global Settings =======================================================================================
+
+% ================================ Next, Begin transcription prep ===============================================================================
+
+Trans_prep : y                                                % y enables conversion from monophone MLF to triphone MLF
+        % --------------- Input and conf file needed------------------------
+PhoneMLF : labs\trainphone_sp.mlf                             % This is the monophone MLF file with "sp" between words
+Conf_mon2tri : toolconfs\mktri_xwd.led                        % This is the conf file to convert monophone MLF to cross word triphone MLF
+        % ---------------- Output file generated ----------------------------
+TriMLF : labs\traintri_xwd.mlf                                % This is the generated cross word triphone MLF
+Trilist_ini : lists\trilist_ini_xwd                               % This is a list of all the cross word triphones used in the training data
+
+% ================================== End transcription prep ========================================================================================
+
+% ================================ Begin training triphones ==========================================================================================
+             % ------------------------------ Global settings for training -----------------------------------------------------------
+Train_on : y                                                      % Enable/disable triphone training, y/n
+Feat_List : lists\train_featfile.lst                              % The feature file list is needed for training triphones.
+Tri_MLF : labs\traintri_xwd.mlf                                   % This is the triphone transcription used as an input
+Src_hmmfolder : hmms\fhmm_mono                                    % This is the source hmm directory to store monophones before triphone.
+Final_hmmfolder : hmms\fhmmtri_xwd                                % This is the folder to store final triphone HMMs
+embdOptStr : "-t 250.0 150.0 3500.0"                              % option for Embedded Training (with prunning threshold)
+Conf_embd : toolconfs\herest.conf                                 % This is the conf file for embedded training
+
+% --------------------------------------------------- Initialization -------------------------------------------------------------------
+Init : y                                                          % Train an initial set of triphones without tied state
+Iteration_init : 3                                                % Train the initial triphone set for this many iterations
+                      % ----------------- Input for initialization ------------------------------------- 
+hmmlist_mono : lists\monophone_sp                                  % This is the monophone hmmlist with sp.
+Trilist_init : lists\trilist_ini_xwd                               % This is the initial triphone list used in the training data
+Conf_init :    toolconfs\tieTrans.hed                              % This is the conf file for initializing triphones
+                                                                   % A mktri.hed will be generated.
+                       % ------------------ Output for initialization ------------------------------------
+TgtDir_init : hmms\hmm3_init_xwd                                   % This is the target HMM folder for initialization
+Stat_embd :   toolconfs\hstats                                     % This is a statistic file for later use
+% ---------------------------------------------------- End Initialization -----------------------------------------------------------------
+
+% ------------------------------------------------ Tied state triphones -------------------------------------------------------------------
+Tie : y                                                             % Create tied state triphones y/n
+Iteration_tie : 3                                                   % Train the tied state triphones for this many iterations.
+                       % ------------------ Conf files for tied state triphones-----------------------------
+Question : toolconfs\Quest.hed                                      % This is the question set for clustering states
+TB :       toolconfs\TB.hed                                         % This is the clustering command TB set
+                       % ------------------- Input for tied state triphones ---------------------------------
+Full_list : lists\fulllist_xwd                                      % This is the full list of triphones to be tied
+Stat_embd :   toolconfs\hstats                                      % This is a statistic file from the initialization step
+Trilist_init : lists\trilist_ini_xwd                                % This is the initial triphone list generated by the initialization.   
+                       % -------------------- Output for tied state triphones --------------------------------
+Trilist_tied : lists\tiedlist_xwd                                   % This is the tied list for decoding
+Tree : toolconfs\trees_xwd                                          % This is the decision tree created.
+% -------------------------------------------------------- End tied-state triphones ---------------------------------------------------------
+
+% ----------------------------------------------Split Mixtures ---------------------------------------------------------------
+Split : y                                                   % Split mixtures or not
+numMixture : 2;4;6;8;12;16                                              % This is the mixture splitting process
+numState : 3                                                % The number of states
+Iteration :  5;5;6;6;7;7                                              % This is the number of iterations to train each mixture splitting.
+
+% =============================================   End training triphones ========================================================================================
+<ENDtool_steps>
+
+
+

@@ -1,0 +1,1171 @@
+QS "L_silence" { sil-* }
+QS "L_nonbouendary" { *-* }
+QS "L_isvowel" { *HT-*, *RT-*, *DT-*, *FT-* }
+QS "L_highend" { *HT-*, *RT-* }
+QS "L_high" { *HT-* }
+QS "L_rise" { *RT-* }
+QS "L_dipping" {*DT-* }
+QS "L_fall" { *FT-* }
+QS "L_iskaihe" { uHT-*, uRT-*, uDT-*, uFT-*, uaHT-*, uaRT-*, uaDT-*, uaFT-*, uoHT-*, uoRT-*, uoDT-*, uoFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, aHT-*, aRT-*, aDT-*, aFT-*, oHT-*, oRT-*, oDT-*, oFT-*, eHT-*, eRT-*, eDT-*, eFT-*, aiHT-*, aiRT-*, aiDT-*, aiFT-*, eiHT-*, eiRT-*, eiDT-*, eiFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-*, anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-*, iiHT-*, iiRT-*, iiDT-*, iiFT-*, erHT-*, erRT-*, erDT-*, erFT-* }
+QS "L_iskaiqi" { aHT-*, aRT-*, aDT-*, aFT-*, oHT-*, oRT-*, oDT-*, oFT-*, eHT-*, eRT-*, eDT-*, eFT-*, aiHT-*, aiRT-*, aiDT-*, aiFT-*, eiHT-*, eiRT-*, eiDT-*, eiFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-*, anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-*, iiHT-*, iiRT-*, iiDT-*, iiFT-*, erHT-*, erRT-*, erDT-*, erFT-*, iHT-*, iRT-*, iDT-*, iFT-*, iaHT-*, iaRT-*, iaDT-*, iaFT-*, ieHT-*, ieRT-*, ieDT-*, ieFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_iskaicuo" { vHT-*, vRT-*, vDT-*, vFT-*, veHT-*, veRT-*, veDT-*, veFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-*, aHT-*, aRT-*, aDT-*, aFT-*, oHT-*, oRT-*, oDT-*, oFT-*, eHT-*, eRT-*, eDT-*, eFT-*, aiHT-*, aiRT-*, aiDT-*, aiFT-*, eiHT-*, eiRT-*, eiDT-*, eiFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-*, anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-*, iiHT-*, iiRT-*, iiDT-*, iiFT-*, erHT-*, erRT-*, erDT-*, erFT-* }
+QS "L_isheqi" { uHT-*, uRT-*, uDT-*, uFT-*, uaHT-*, uaRT-*, uaDT-*, uaFT-*, uoHT-*, uoRT-*, uoDT-*, uoFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, iHT-*, iRT-*, iDT-*, iFT-*, iaHT-*, iaRT-*, iaDT-*, iaFT-*, ieHT-*, ieRT-*, ieDT-*, ieFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_ishecuo" { vHT-*, vRT-*, vDT-*, vFT-*, veHT-*, veRT-*, veDT-*, veFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-*, uHT-*, uRT-*, uDT-*, uFT-*, uaHT-*, uaRT-*, uaDT-*, uaFT-*, uoHT-*, uoRT-*, uoDT-*, uoFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-* }
+QS "L_isqicuo" { vHT-*, vRT-*, vDT-*, vFT-*, veHT-*, veRT-*, veDT-*, veFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-*, iHT-*, iRT-*, iDT-*, iFT-*, iaHT-*, iaRT-*, iaDT-*, iaFT-*, ieHT-*, ieRT-*, ieDT-*, ieFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_beg-a" { aHT-*, aRT-*, aDT-*, aFT-*, aiHT-*, aiRT-*, aiDT-*, aiFT-*, anHT-*, anRT-*, anDT-*, anFT-*, angHT-*, angRT-*, angDT-*, angFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-* }
+QS "L_beg-iii" { iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-* }
+QS "L_beg-o" { oHT-*, oRT-*, oDT-*, oFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-* }
+QS "L_beg-u" { uHT-*, uRT-*, uDT-*, uFT-*, uaHT-*, uaRT-*, uaDT-*, uaFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uoHT-*, uoRT-*, uoDT-*, uoFT-* }
+QS "L_beg_i" {iHT-*, iRT-*, iDT-*, iFT-*, iiHT-*, iiRT-*, iiDT-*, iiFT-*, iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-*, iaHT-*, iaRT-*, iaDT-*, iaFT-*, ieHT-*, ieRT-*, ieDT-*, ieFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_beg_v" {vHT-*, vRT-*, vDT-*, vFT-*, veHT-*, veRT-*, veDT-*, veFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_beg-a1" { aHT-*, aRT-*, aDT-*, aFT-*, iaHT-*, iaRT-*, iaDT-*, iaFT-*, uaHT-*, uaRT-*, uaDT-*, uaFT-* }
+QS "L_beg_o1" { oHT-*, oRT-*, oDT-*, oFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, uoHT-*, uoRT-*, uoDT-*, uoFT-* }
+QS "L_beg_i1" { iHT-*, iRT-*, iDT-*, iFT-*, iiHT-*, iiRT-*, iiDT-*, iiFT-*, iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-*, aiHT-*, aiRT-*, aiDT-*, aiFT-*, eiHT-*, eiRT-*, eiDT-*, eiFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-* }
+QS "L_beg_u_wei" { uHT-*, uRT-*, uDT-*, uFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-* }
+QS "L_beg_v1" { vHT-*, vRT-*, vDT-*, vFT-* }
+QS "L_beg_n" { anHT-*, anRT-*, anDT-*, anFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, enHT-*, enRT-*, enDT-*, enFT-*, inHT-*, inRT-*, inDT-*, inFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-* }
+QS "L_beg_ng" { angHT-*, angRT-*, angDT-*, angFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, engHT-*, engRT-*, engDT-*, engFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_beg_er" { erHT-*, erRT-*, erDT-*, erFT-* }
+QS "L_beg-ai" { aiHT-*, aiRT-*, aiDT-*, aiFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-* }
+QS "L_beg-ang" { angHT-*, angRT-*, angDT-*, angFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-* }
+QS "L_beg_an" { anHT-*, anRT-*, anDT-*, anFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-* }
+QS "L_beg_en" { enHT-*, enRT-*, enDT-*, enFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_beg-ao" { aoHT-*, aoRT-*, aoDT-*, aoFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-* }
+QS "L_beg-ei" { eiHT-*, eiRT-*, eiDT-*, eiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-* }
+QS "L_eng" { engHT-*, engRT-*, engDT-*, engFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-* }
+QS "L_ong_iong" { ongHT-*, ongRT-*, ongDT-*, ongFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_ie" { ieHT-*, ieRT-*, ieDT-*, ieFT-*, veHT-*, veRT-*, veDT-*, veFT-* }
+QS "L_fd-fubiweiiing" { anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, inHT-*, inRT-*, inDT-*, inFT-*, angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_fd-fuyuanying" { aiHT-*, aiRT-*, aiDT-*, aiFT-*, eiHT-*, eiRT-*, eiDT-*, eiFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-* }
+QS "L_md-fuyuanying" { iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-* }
+QS "L_iskaiheT1T2" { uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-*, uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*, aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-* }
+QS "L_iskaiqiT1T2" { aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-*, iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_iskaicuoT1T2" {vHT-*, veHT-*, vanHT-*, vnHT-*, aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-*, vRT-*, veRT-*, vanRT-*, vnRT-*, aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-* }
+QS "L_isheqiT1T2" { uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_ishecuoT1T2" { vHT-*, veHT-*, vanHT-*, vnHT-*, uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, vRT-*, veRT-*, vanRT-*, vnRT-*, uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-* }
+QS "L_isqicuoT1T2" { vHT-*, veHT-*, vanHT-*, vnHT-*, iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, vRT-*, veRT-*, vanRT-*, vnRT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_beg-a2T1T2" { aHT-*, aiHT-*, anHT-*, angHT-*, aoHT-*, aRT-*, aiRT-*, anRT-*, angRT-*, aoRT-* }
+QS "L_beg-iiiT1T2" { iiiHT-*, iiiRT-* }
+QS "L_beg-o1T1T2" { oHT-*, ongHT-*, ouHT-*, oRT-*, ongRT-*, ouRT-* }
+QS "L_beg-u1T1T2" { uHT-*, uaHT-*, uanHT-*, uangHT-*, ongHT-*, ueiHT-*, uenHT-*, uoHT-*, uRT-*, uaRT-*, uanRT-*, uangRT-*, ongRT-*, ueiRT-*, uenRT-*, uoRT-* }
+QS "L_beg_iT1T2" { iHT-*, iiHT-*, iiiHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, iRT-*, iiRT-*, iiiRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_beg_vT1T2" { vHT-*, veHT-*, vanHT-*, vnHT-*, vRT-*, veRT-*, vanRT-*, vnRT-* }
+QS "L_beg-a3T1T2" { aHT-*, iaHT-*, uaHT-*, aRT-*, iaRT-*, uaRT-* }
+QS "L_beg_o1T1T2" {oHT-*, aoHT-*, iaoHT-*, uoHT-*, oRT-*, aoRT-*, iaoRT-*, uoRT-* }
+QS "L_beg_i1T1T2" { iHT-*, iiHT-*, iiiHT-*, aiHT-*, eiHT-*, uaiHT-*, ueiHT-*, iRT-*, iiRT-*, iiiRT-*, aiRT-*, eiRT-*, uaiRT-*, ueiRT-*  }
+QS "L_beg_u_weiT1T2" { uHT-*, ouHT-*, iouHT-*, uRT-*, ouRT-*, iouRT-* }
+QS "L_beg_v1T1T2" { vHT-*, vRT-* }
+QS "L_beg_nT1T2" { anHT-*, ianHT-*, uanHT-*, vanHT-*, enHT-*, inHT-*, vnHT-*, uenHT-*, anRT-*, ianRT-*, uanRT-*, vanRT-*, enRT-*, inRT-*, vnRT-*, uenRT-* }
+QS "L_beg_ngT1T2" { angHT-*, iangHT-*, uangHT-*, engHT-*, ingHT-*, ongHT-*, iongHT-*, angRT-*, iangRT-*, uangRT-*, engRT-*, ingRT-*, ongRT-*, iongRT-* }
+QS "L_beg_erT1T2" { erHT-*, erRT-* }
+QS "L_beg-aiT1T2" { aiHT-*, uaiHT-*, aiRT-*, uaiRT-* }
+QS "L_beg-angT1T2" { angHT-*, iangHT-*, uangHT-*, angRT-*, iangRT-*, uangRT-* }
+QS "L_beg_anT1T2" { anHT-*, ianHT-*, uanHT-*, vanHT-*, anRT-*, ianRT-*, uanRT-*, vanRT-* }
+QS "L_beg_enT1T2" { enHT-*, uenHT-*, vnHT-*, enRT-*, uenRT-*, vnRT-* }
+QS "L_beg-aoT1T2" { aoHT-*, iaoHT-*, aoRT-*, iaoRT-*}
+QS "L_beg-eiT1T2" { eiHT-*, ueiHT-*, eiRT-*, ueiRT-* }
+QS "L_eng-aT1T2" { engHT-*, ongHT-*, engRT-*, ongRT-* }
+QS "L_ong_iongT1T2" { ongHT-*, iongHT-*, ongRT-*, iongRT-* }
+QS "L_ie1-aT1T2" { ieHT-*, veHT-*, ieRT-*, veRT-* }
+QS "L_fd-fubiweiiingT1T2" { anHT-*, enHT-*, inHT-*, angHT-*, engHT-*, ingHT-*, ongHT-*, vnHT-*, anRT-*, enRT-*, inRT-*, angRT-*, engRT-*, ingRT-*, ongRT-*, vnRT-* }
+QS "L_fd-fuyuanyingT1T2" { aiHT-*, eiHT-*, aoHT-*, ouHT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-* }
+QS "L_md-fuyuanyingT1T2" { iaoHT-*, iouHT-*, uaiHT-*, ueiHT-*, iaoRT-*, iouRT-*, uaiRT-*, ueiRT-* }
+QS "L_iskaiheT3" { uDT-*, uaDT-*, uoDT-*, uaiDT-*, ueiDT-*, uanDT-*, uenDT-*, uangDT-*, ongDT-*, aDT-*, oDT-*, eDT-*, aiDT-*, eiDT-*, aoDT-*, ouDT-*, anDT-*, enDT-*, angDT-*, engDT-*, iiiDT-*, iiDT-*, erDT-* }
+QS "L_iskaiqiT3" { aDT-*, oDT-*, eDT-*, aiDT-*, eiDT-*, aoDT-*, ouDT-*, anDT-*, enDT-*, angDT-*, engDT-*, iiiDT-*, iiDT-*, erDT-*, iDT-*, iaDT-*, ieDT-*, iaoDT-*, iouDT-*, ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-* }
+QS "L_iskaicuoT3" { vDT-*, veDT-*, vanDT-*, vnDT-*, aDT-*, oDT-*, eDT-*, aiDT-*, eiDT-*, aoDT-*, ouDT-*, anDT-*, enDT-*, angDT-*, engDT-*, iiiDT-*, iiDT-*, erDT-* }
+QS "L_isheqiT3" { uDT-*, uaDT-*, uoDT-*, uaiDT-*, ueiDT-*, uanDT-*, uenDT-*, uangDT-*, ongDT-*, iDT-*, iaDT-*, ieDT-*, iaoDT-*, iouDT-*, ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-* }
+QS "L_ishecuoT3" { vDT-*, veDT-*, vanDT-*, vnDT-*, uDT-*, uaDT-*, uoDT-*, uaiDT-*, ueiDT-*, uanDT-*, uenDT-*, uangDT-*, ongDT-* }
+QS "L_isqicuoT3" { vDT-*, veDT-*, vanDT-*, vnDT-*, iDT-*, iaDT-*, ieDT-*, iaoDT-*, iouDT-*, ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-* }
+QS "L_beg-a2" { aDT-*, aiDT-*, anDT-*, angDT-*, aoDT-* }
+QS "L_beg-iii1" { iiiDT-* }
+QS "L_beg-o1" { oDT-*, ongDT-*, ouDT-* }
+QS "L_beg-u1" { uDT-*, uaDT-*, uanDT-*, uangDT-*, ongDT-*, ueiDT-*, uenDT-*, uoDT-* }
+QS "L_beg_iT3" { iDT-*, iiDT-*, iiiDT-*, iaDT-*, ieDT-*, iaoDT-*, iouDT-*, ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-* }
+QS "L_beg_vT3" { vDT-*, veDT-*, vanDT-*, vnDT-* }
+QS "L_beg-a3" { aDT-*, iaDT-*, uaDT-* }
+QS "L_beg_o1T3" {oDT-*, aoDT-*, iaoDT-*, uoDT-* }
+QS "L_beg_i1T3" { iDT-*, iiDT-*, iiiDT-*, aiDT-*, eiDT-*, uaiDT-*, ueiDT-* }
+QS "L_beg_u_weiT3" { uDT-*, ouDT-*, iouDT-* }
+QS "L_beg_v1T3" { vDT-* }
+QS "L_beg_nT3" { anDT-*, ianDT-*, uanDT-*, vanDT-*, enDT-*, inDT-*, vnDT-*, uenDT-* }
+QS "L_beg_ngT3" { angDT-*, iangDT-*, uangDT-*, engDT-*, ingDT-*, ongDT-*, iongDT-* }
+QS "L_beg_erT3" { erDT-*}
+QS "L_beg-ai1" { aiDT-*, uaiDT-* }
+QS "L_beg-ang1" { angDT-*, iangDT-*, uangDT-* }
+QS "L_beg_an1" { anDT-*, ianDT-*, uanDT-*, vanDT-* }
+QS "L_beg_en1" { enDT-*, uenDT-*, vnDT-* }
+QS "L_beg-ao1" { aoDT-*, iaoDT-* }
+QS "L_beg-ei1" { eiDT-*, ueiDT-* }
+QS "L_eng-a" { engDT-*, ongDT-* }
+QS "L_ong_iongT3" { ongDT-*, iongDT-* }
+QS "L_ie1-a" { ieDT-*, veDT-* }
+QS "L_fd-fubiweiiing1" { anDT-*, enDT-*, inDT-*, angDT-*, engDT-*, ingDT-*, ongDT-*, vnDT-* }
+QS "L_fd-fuyuanying1" { aiDT-*, eiDT-*, aoDT-*, ouDT-* }
+QS "L_md-fuyuanying1" { iaoDT-*, iouDT-*, uaiDT-*, ueiDT-* }
+QS "L_iskaiheT1" { uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-* }
+QS "L_iskaiqiT1" { aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-*, iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-* }
+QS "L_iskaicuoT1" { vHT-*, veHT-*, vanHT-*, vnHT-*, aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-* }
+QS "L_isheqiT1" { uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-* }
+QS "L_ishecuoT1" { vHT-*, veHT-*, vanHT-*, vnHT-*, uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-* }
+QS "L_isqicuoT1" { vHT-*, veHT-*, vanHT-*, vnHT-*, iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-* }
+QS "L_beg-a4" { aHT-*, aiHT-*, anHT-*, angHT-*, aoHT-* }
+QS "L_beg-iii2" { iiiHT-* }
+QS "L_beg-o2" { oHT-*, ongHT-*, ouHT-* }
+QS "L_beg-u2" { uHT-*, uaHT-*, uanHT-*, uangHT-*, ongHT-*, ueiHT-*, uenHT-*, uoHT-* }
+QS "L_beg_iT1" { iHT-*, iiHT-*, iiiHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*,  iangHT-*, ingHT-*, iongHT-* }
+QS "L_beg_vT1" { vHT-*, veHT-*, vanHT-*, vnHT-* }
+QS "L_beg-a5" { aHT-*, iaHT-*, uaHT-* }
+QS "L_beg_o1T1" {oHT-*, aoHT-*, iaoHT-*, uoHT-* }
+QS "L_beg_i1T1" { iHT-*, iiHT-*, iiiHT-*, aiHT-*, eiHT-*, uaiHT-*, ueiHT-* }
+QS "L_beg_u_weiT1" { uHT-*, ouHT-*, iouHT-* }
+QS "L_beg_v1T1" { vHT-* }
+QS "L_beg_nT1" { anHT-*, ianHT-*, uanHT-*, vanHT-*, enHT-*, inHT-*, vnHT-*, uenHT-* }
+QS "L_beg_ngT1" { angHT-*, iangHT-*, uangHT-*, engHT-*, ingHT-*, ongHT-*, iongHT-* }
+QS "L_beg_erT1" { erHT-*}
+QS "L_beg-ai2" { aiHT-*, uaiHT-* }
+QS "L_beg-ang2" { angHT-*, iangHT-*, uangHT-* }
+QS "L_beg_an2" { anHT-*, ianHT-*, uanHT-*, vanHT-* }
+QS "L_beg_en2" { enHT-*, uenHT-*, vnHT-* }
+QS "L_beg-ao2" { aoHT-*, iaoHT-* }
+QS "L_beg-ei2" { eiHT-*, ueiHT-* }
+QS "L_eng2-a" { engHT-*, ongHT-* }
+QS "L_ong_iongT1" { ongHT-*, iongHT-* }
+QS "L_ie2-a" { ieHT-*, veHT-* }
+QS "L_fd-fubiweiiing2" { anHT-*, enHT-*, inHT-*, angHT-*, engHT-*, ingHT-*, ongHT-*, vnHT-* }
+QS "L_fd-fuyuanying2" { aiHT-*, eiHT-*, aoHT-*, ouHT-* }
+QS "L_md-fuyuanying2" { iaoHT-*, iouHT-*, uaiHT-*, ueiHT-* }
+QS "L_iskaiheT2" { uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*, aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-* }
+QS "L_iskaiqiT2" { aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_iskaicuoT2" { vRT-*, veRT-*, vanRT-*, vnRT-*, aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-* }
+QS "L_isheqiT2" { uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_ishecuoT2" { vRT-*, veRT-*, vanRT-*, vnRT-*, uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-* }
+QS "L_isqicuoT2" { vRT-*, veRT-*, vanRT-*, vnRT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_beg-a6" { aRT-*, aiRT-*, anRT-*, angRT-*, aoRT-* }
+QS "L_beg-iii3" { iiiRT-* }
+QS "L_beg-o3" { oRT-*, ongRT-*, ouRT-* }
+QS "L_beg-u3" { uRT-*, uaRT-*, uanRT-*, uangRT-*, ongRT-*, ueiRT-*, uenRT-*, uoRT-* }
+QS "L_beg_iT2" { iRT-*, iiRT-*, iiiRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*,  iangRT-*, ingRT-*, iongRT-* }
+QS "L_beg_vT2" { vRT-*, veRT-*, vanRT-*, vnRT-* }
+QS "L_beg-a7" { aRT-*, iaRT-*, uaRT-* }
+QS "L_beg_o1T2" {oRT-*, aoRT-*, iaoRT-*, uoRT-* }
+QS "L_beg_i1T2" { iRT-*, iiRT-*, iiiRT-*, aiRT-*, eiRT-*, uaiRT-*, ueiRT-* }
+QS "L_beg_u_weiT2" { uRT-*, ouRT-*, iouRT-* }
+QS "L_beg_v1T2" { vRT-* }
+QS "L_beg_nT2" { anRT-*, ianRT-*, uanRT-*, vanRT-*, enRT-*, inRT-*, vnRT-*, uenRT-* }
+QS "L_beg_ngT2" { angRT-*, iangRT-*, uangRT-*, engRT-*, ingRT-*, ongRT-*, iongRT-* }
+QS "L_beg_erT2" { erRT-*}
+QS "L_beg-ai3" { aiRT-*, uaiRT-* }
+QS "L_beg-ang3" { angRT-*, iangRT-*, uangRT-* }
+QS "L_beg_an3" { anRT-*, ianRT-*, uanRT-*, vanRT-* }
+QS "L_beg_en3" { enRT-*, uenRT-*, vnRT-* }
+QS "L_beg-ao3" { aoRT-*, iaoRT-* }
+QS "L_beg-ei3" { eiRT-*, ueiRT-* }
+QS "L_eng3-a" { engRT-*, ongRT-* }
+QS "L_ong_iongT2" { ongRT-*, iongRT-* }
+QS "L_ie3-a" { ieRT-*, veRT-* }
+QS "L_fd-fubiweiiing3" { anRT-*, enRT-*, inRT-*, angRT-*, engRT-*, ingRT-*, ongRT-*, vnRT-* }
+QS "L_fd-fuyuanying3" { aiRT-*, eiRT-*, aoRT-*, ouRT-* }
+QS "L_md-fuyuanying3" { iaoRT-*, iouRT-*, uaiRT-*, ueiRT-* }
+QS "L_iskaiheT4" { uFT-*, uaFT-*, uoFT-*, uaiFT-*, ueiFT-*, uanFT-*, uenFT-*, uangFT-*, ongFT-*, aFT-*, oFT-*, eFT-*, aiFT-*, eiFT-*, aoFT-*, ouFT-*, anFT-*, enFT-*, angFT-*, engFT-*, iiiFT-*, iiFT-*, erFT-* }
+QS "L_iskaiqiT4" { aFT-*, oFT-*, eFT-*, aiFT-*, eiFT-*, aoFT-*, ouFT-*, anFT-*, enFT-*, angFT-*, engFT-*, iiiFT-*, iiFT-*, erFT-*, iFT-*, iaFT-*, ieFT-*, iaoFT-*, iouFT-*, ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-* }
+QS "L_iskaicuoT4" { vFT-*, veFT-*, vanFT-*, vnFT-*, aFT-*, oFT-*, eFT-*, aiFT-*, eiFT-*, aoFT-*, ouFT-*, anFT-*, enFT-*, angFT-*, engFT-*, iiiFT-*, iiFT-*, erFT-* }
+QS "L_isheqiT4" { uFT-*, uaFT-*, uoFT-*, uaiFT-*, ueiFT-*, uanFT-*, uenFT-*, uangFT-*, ongFT-*, iFT-*, iaFT-*, ieFT-*, iaoFT-*, iouFT-*, ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-* }
+QS "L_ishecuoT4" { vFT-*, veFT-*, vanFT-*, vnFT-*, uFT-*, uaFT-*, uoFT-*, uaiFT-*, ueiFT-*, uanFT-*, uenFT-*, uangFT-*, ongFT-* }
+QS "L_isqicuoT4" { vFT-*, veFT-*, vanFT-*, vnFT-*, iFT-*, iaFT-*, ieFT-*, iaoFT-*, iouFT-*, ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-* }
+QS "L_beg-a8" { aFT-*, aiFT-*, anFT-*, angFT-*, aoFT-* }
+QS "L_beg-iii4" { iiiFT-* }
+QS "L_beg-o4" { oFT-*, ongFT-*, ouFT-* }
+QS "L_beg-u4" { uFT-*, uaFT-*, uanFT-*, uangFT-*, ongFT-*, ueiFT-*, uenFT-*, uoFT-* }
+QS "L_beg_iT4" { iFT-*, iiFT-*, iiiFT-*, iaFT-*, ieFT-*, iaoFT-*, iouFT-*, ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-* }
+QS "L_beg_vT4" { vFT-*, veFT-*, vanFT-*, vnFT-* }
+QS "L_beg-a9" { aFT-*, iaFT-*, uaFT-* }
+QS "L_beg_o1T4" {oFT-*, aoFT-*, iaoFT-*, uoFT-* }
+QS "L_beg_i1T4" { iFT-*, iiFT-*, iiiFT-*, aiFT-*, eiFT-*, uaiFT-*, ueiFT-* }
+QS "L_beg_u_weiT4" { uFT-*, ouFT-*, iouFT-* }
+QS "L_beg_v1T4" { vFT-* }
+QS "L_beg_nT4" { anFT-*, ianFT-*, uanFT-*, vanFT-*, enFT-*, inFT-*, vnFT-*, uenFT-* }
+QS "L_beg_ngT4" { angFT-*, iangFT-*, uangFT-*, engFT-*, ingFT-*, ongFT-*, iongFT-* }
+QS "L_beg_erT4" { erFT-*}
+QS "L_beg-ai4" { aiFT-*, uaiFT-* }
+QS "L_beg-ang4" { angFT-*, iangFT-*, uangFT-* }
+QS "L_beg_an4" { anFT-*, ianFT-*, uanFT-*, vanFT-* }
+QS "L_beg_en4" { enFT-*, uenFT-*, vnFT-* }
+QS "L_beg-ao4" { aoFT-*, iaoFT-* }
+QS "L_beg-ei4" { eiFT-*, ueiFT-* }
+QS "L_eng4-a" { engFT-*, ongFT-* }
+QS "L_ong_iongT4" { ongFT-*, iongFT-* }
+QS "L_ie4-a" { ieFT-*, veFT-* }
+QS "L_fd-fubiweiiing4" { anFT-*, enFT-*, inFT-*, angFT-*, engFT-*, ingFT-*, ongFT-*, vnFT-* }
+QS "L_fd-fuyuanying4" { aiFT-*, eiFT-*, aoFT-*, ouFT-* }
+QS "L_isnasal" { anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_isopen" { aHT-*, aRT-*, aDT-*, aFT-*, oHT-*, oRT-*, oDT-*, oFT-*, eHT-*, eRT-*, eDT-*, eFT-*, aiHT-*, aiRT-*, aiDT-*, aiFT-*, eiHT-*, eiRT-*, eiDT-*, eiFT-*, aoHT-*, aoRT-*, aoDT-*, aoFT-*, ouHT-*, ouRT-*, ouDT-*, ouFT-*, anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-*, iiHT-*, iiRT-*, iiDT-*, iiFT-*, erHT-*, erRT-*, erDT-*, erFT-* }
+QS "L_isqi" { iHT-*, iRT-*, iDT-*, iFT-*, iaHT-*, iaRT-*, iaDT-*, iaFT-*, ieHT-*, ieRT-*, ieDT-*, ieFT-*, iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-*, iouHT-*, iouRT-*, iouDT-*, iouFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_ishe" { uHT-*, uRT-*, uDT-*, uFT-*, uaHT-*, uaRT-*, uaDT-*, uaFT-*, uoHT-*, uoRT-*, uoDT-*, uoFT-*, uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-*, ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-* }
+QS "L_iscuo" { vHT-*, vRT-*, vDT-*, vFT-*, veHT-*, veRT-*, veDT-*, veFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_is3rdTone" { aDT-*, aiDT-*, anDT-*, angDT-*, aoDT-*, eDT-*, eiDT-*, enDT-*, engDT-*, erDT-*, iDT-*, iaDT-*, ianDT-*, iangDT-*, iaoDT-*, ieDT-*, inDT-*, ingDT-*, iongDT-*, iouDT-*, iiiDT-*, iiDT-*, oDT-*, ongDT-*, ouDT-*, uDT-*, uaDT-*, uaiDT-*, uanDT-*, uangDT-*, ueiDT-*, uenDT-*, uoDT-*, vDT-*, vanDT-*, veDT-*, vnDT-* }
+QS "L_is1stTone" { aHT-*, aiHT-*, anHT-*, angHT-*, aoHT-*, eHT-*, eiHT-*, enHT-*, engHT-*, erHT-*, iHT-*, iaHT-*, ianHT-*, iangHT-*, iaoHT-*, ieHT-*, inHT-*, ingHT-*, iongHT-*, iouHT-*, iiiHT-*, iiHT-*, oHT-*, ongHT-*, ouHT-*, uHT-*, uaHT-*, uaiHT-*, uanHT-*, uangHT-*, ueiHT-*, uenHT-*, uoHT-*, vHT-*, vanHT-*, veHT-*, vnHT-* }
+QS "L_is2ndTone" { aRT-*, aiRT-*, anRT-*, angRT-*, aoRT-*, eRT-*, eiRT-*, enRT-*, engRT-*, erRT-*, iRT-*, iaRT-*, ianRT-*, iangRT-*, iaoRT-*, ieRT-*, inRT-*, ingRT-*, iongRT-*, iouRT-*, iiiRT-*, iiRT-*, oRT-*, ongRT-*, ouRT-*, uRT-*, uaRT-*, uaiRT-*, uanRT-*, uangRT-*, ueiRT-*, uenRT-*, uoRT-*, vRT-*, vanRT-*, veRT-*, vnRT-* }
+QS "L_is4thTone" { aFT-*, aiFT-*, anFT-*, angFT-*, aoFT-*, eFT-*, eiFT-*, enFT-*, engFT-*, erFT-*, iFT-*, iaFT-*, ianFT-*, iangFT-*, iaoFT-*, ieFT-*, inFT-*, ingFT-*, iongFT-*, iouFT-*, iiiFT-*, iiFT-*, oFT-*, ongFT-*, ouFT-*, uFT-*, uaFT-*, uaiFT-*, uanFT-*, uangFT-*, ueiFT-*, uenFT-*, uoFT-*, vFT-*, vanFT-*, veFT-*, vnFT-* }
+QS "L_isnasal12" { anHT-*, enHT-*, angHT-*, engHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, vanHT-*, vnHT-*, anRT-*, enRT-*, angRT-*, engRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*, vanRT-*, vnRT-* }
+QS "L_isopen12" { aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-*, aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-* }
+QS "L_isqi12" { iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_ishe12" { uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-* }
+QS "L_iscuo12" { vHT-*, veHT-*, vanHT-*, vnHT-*, vRT-*, veRT-*, vanRT-*, vnRT-* }
+QS "L_isnasal3" { anDT-*, enDT-*, angDT-*, engDT-*, ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-*, uanDT-*, uenDT-*, uangDT-*, ongDT-*, vanDT-*, vnDT-* }
+QS "L_isopen3" { aDT-*, oDT-*, eDT-*, aiDT-*, eiDT-*, aoDT-*, ouDT-*, anDT-*, enDT-*, angDT-*, engDT-*, iiiDT-*, iiDT-*, erDT-* }
+QS "L_isqi3" { iDT-*, iaDT-*, ieDT-*, iaoDT-*, iouDT-*, ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-* }
+QS "L_ishe3" { uDT-*, uaDT-*, uoDT-*, uaiDT-*, ueiDT-*, uanDT-*, uenDT-*, uangDT-*, ongDT-* }
+QS "L_iscuo3" { vDT-*, veDT-*, vanDT-*, vnDT-* }
+QS "L_isnasal2" { anRT-*, enRT-*, angRT-*, engRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*, vanRT-*, vnRT-* }
+QS "L_isopen2" { aRT-*, oRT-*, eRT-*, aiRT-*, eiRT-*, aoRT-*, ouRT-*, anRT-*, enRT-*, angRT-*, engRT-*, iiiRT-*, iiRT-*, erRT-* }
+QS "L_isqi2" { iRT-*, iaRT-*, ieRT-*, iaoRT-*, iouRT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_ishe2" { uRT-*, uaRT-*, uoRT-*, uaiRT-*, ueiRT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-* }
+QS "L_iscuo2" { vRT-*, veRT-*, vanRT-*, vnRT-* }
+QS "L_isnasal1" { anHT-*, enHT-*, angHT-*, engHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-*, vanHT-*, vnHT-* }
+QS "L_isopen1" { aHT-*, oHT-*, eHT-*, aiHT-*, eiHT-*, aoHT-*, ouHT-*, anHT-*, enHT-*, angHT-*, engHT-*, iiiHT-*, iiHT-*, erHT-* }
+QS "L_isqi1" { iHT-*, iaHT-*, ieHT-*, iaoHT-*, iouHT-*, ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-* }
+QS "L_ishe1" { uHT-*, uaHT-*, uoHT-*, uaiHT-*, ueiHT-*, uanHT-*, uenHT-*, uangHT-*, ongHT-* }
+QS "L_iscuo1" { vHT-*, veHT-*, vanHT-*, vnHT-* }
+QS "L_isnasal4" { anFT-*, enFT-*, angFT-*, engFT-*, ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-*, uanFT-*, uenFT-*, uangFT-*, ongFT-*, vanFT-*, vnFT-* }
+QS "L_isopen4" { aFT-*, oFT-*, eFT-*, aiFT-*, eiFT-*, aoFT-*, ouFT-*, anFT-*, enFT-*, angFT-*, engFT-*, iiiFT-*, iiFT-*, erFT-* }
+QS "L_isqi4" { iFT-*, iaFT-*, ieFT-*, iaoFT-*, iouFT-*, ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-* }
+QS "L_ishe4" { uFT-*, uaFT-*, uoFT-*, uaiFT-*, ueiFT-*, uanFT-*, uenFT-*, uangFT-*, ongFT-* }
+QS "L_iscuo4" { vFT-*, veFT-*, vanFT-*, vnFT-* }
+QS "L_isnasa" { anHT-*, anRT-*, anDT-*, anFT-*, angHT-*, angRT-*, angDT-*, angFT-* }
+QS "L_isnase" { enHT-*, enRT-*, enDT-*, enFT-*, engHT-*, engRT-*, engDT-*, engFT-* }
+QS "L_isnasi" { ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_isnasu" { uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-* }
+QS "L_isnasv" { vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_isnasfr" { anHT-*, anRT-*, anDT-*, anFT-*, enHT-*, enRT-*, enDT-*, enFT-*, ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-*, uanHT-*, uanRT-*, uanDT-*, uanFT-*, uenHT-*, uenRT-*, uenDT-*, uenFT-*, vanHT-*, vanRT-*, vanDT-*, vanFT-*, vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_isnasbk" { angHT-*, angRT-*, angDT-*, angFT-*, engHT-*, engRT-*, engDT-*, engFT-*, iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-*, uangHT-*, uangRT-*, uangDT-*, uangFT-*, ongHT-*, ongRT-*, ongDT-*, ongFT-* }
+QS "L_isnasibk" { iangHT-*, iangRT-*, iangDT-*, iangFT-*, ingHT-*, ingRT-*, ingDT-*, ingFT-*, iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_isnasifr" { ianHT-*, ianRT-*, ianDT-*, ianFT-*, inHT-*, inRT-*, inDT-*, inFT-* }
+QS "L_isnasa12" { anHT-*, angHT-*, anRT-*, angRT-* }
+QS "L_isnase12" { enHT-*, engHT-*, enRT-*, engRT-* }
+QS "L_isnasi12" { ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-*, ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_isnasu12" { uanHT-*, uenHT-*, uangHT-*, ongHT-*, uanRT-*, uenRT-*, uangRT-*, ongRT-*  }
+QS "L_isnasv12" { vanHT-*, vnHT-*, vanRT-*, vnRT-* }
+QS "L_isnasfr12" { anHT-*, enHT-*, ianHT-*, inHT-*, uanHT-*, uenHT-*, vanHT-*, vnHT-*, anRT-*, enRT-*, ianRT-*, inRT-*, uanRT-*, uenRT-*, vanRT-*, vnRT-* }
+QS "L_isnasbk12" { angHT-*, engHT-*, iangHT-*, ingHT-*, iongHT-*, uangHT-*, ongHT-*, angRT-*, engRT-*, iangRT-*, ingRT-*, iongRT-*, uangRT-*, ongRT-* }
+QS "L_isnasibk12" { iangHT-*, ingHT-*, iongHT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_isnasifr12" { ianHT-*, inHT-*, ianRT-*, inRT-* }
+QS "L_isnasa3" { anDT-*, angDT-* }
+QS "L_isnase3" { enDT-*, engDT-* }
+QS "L_isnasi3" { ianDT-*, inDT-*, iangDT-*, ingDT-*, iongDT-* }
+QS "L_isnasu3" { uanDT-*, uenDT-*, uangDT-*, ongDT-* }
+QS "L_isnasv3" { vanDT-*, vnDT-* }
+QS "L_isnasfr3" { anDT-*, enDT-*, ianDT-*, inDT-*, uanDT-*, uenDT-*, vanDT-*, vnDT-* }
+QS "L_isnasbk3" { angDT-*, engDT-*, iangDT-*, ingDT-*, iongDT-*, uangDT-*, ongDT-* }
+QS "L_isnasibk3" { iangDT-*, ingDT-*, iongDT-* }
+QS "L_isnasifr3" { ianDT-*, inDT-* }
+QS "L_isnasa1" { anHT-*, angHT-* }
+QS "L_isnase1" { enHT-*, engHT-* }
+QS "L_isnasi1" { ianHT-*, inHT-*, iangHT-*, ingHT-*, iongHT-* }
+QS "L_isnasu1" { uanHT-*, uenHT-*, uangHT-*, ongHT-* }
+QS "L_isnasv1" { vanHT-*, vnHT-* }
+QS "L_isnasfr1" { anHT-*, enHT-*, ianHT-*, inHT-*, uanHT-*, uenHT-*, vanHT-*, vnHT-* }
+QS "L_isnasbk1" { angHT-*, engHT-*, iangHT-*, ingHT-*, iongHT-*, uangHT-*, ongHT-* }
+QS "L_isnasibk1" { iangHT-*, ingHT-*, iongHT-* }
+QS "L_isnasifr1" { ianHT-*, inHT-* }
+QS "L_isnasa2" { anRT-*, angRT-* }
+QS "L_isnase2" { enRT-*, engRT-* }
+QS "L_isnasi2" { ianRT-*, inRT-*, iangRT-*, ingRT-*, iongRT-* }
+QS "L_isnasu2" { uanRT-*, uenRT-*, uangRT-*, ongRT-* }
+QS "L_isnasv2" { vanRT-*, vnRT-* }
+QS "L_isnasfr2" { anRT-*, enRT-*, ianRT-*, inRT-*, uanRT-*, uenRT-*, vanRT-*, vnRT-* }
+QS "L_isnasbk2" { angRT-*, engRT-*, iangRT-*, ingRT-*, iongRT-*, uangRT-*, ongRT-* }
+QS "L_isnasibk2" { iangRT-*, ingRT-*, iongRT-* }
+QS "L_isnasifr2" { ianRT-*, inRT-* }
+QS "L_isnasa4_5" { anFT-*, angFT-* }
+QS "L_isnase4_5" { enFT-*, engFT-* }
+QS "L_isnasi4_5" { ianFT-*, inFT-*, iangFT-*, ingFT-*, iongFT-* }
+QS "L_isnasu4_5" { uanFT-*, uenFT-*, uangFT-*, ongFT-* }
+QS "L_isnasv4_5" { vanFT-*, vnFT-* }
+QS "L_isnasfr4_5" { anFT-*, enFT-*, ianFT-*, inFT-*, uanFT-*, uenFT-*, vanFT-*, vnFT-* }
+QS "L_isnasbk4_5" { angFT-*, engFT-*, iangFT-*, ingFT-*, iongFT-*, uangFT-*, ongFT-* }
+QS "L_isnasibk4_5" { iangFT-*, ingFT-*, iongFT-* }
+QS "L_isnasifr4_5" { ianFT-*, inFT-* }
+QS "L_isstop" { b-*, d-*, g-*, p-*, t-*, k-* }
+QS "L_issaica" { f-*, s-*, sh-*, x-*, h-*, z-*, zh-*, j-*, c-*, ch-*, q-* }
+QS "L_issaifra" { z-*, zh-*, j-*, c-*, ch-*, q-* }
+QS "L_issaifras" { c-*, ch-*, q-* }
+QS "L_issaifr" { z-*, zh-*, j-* }
+QS "L_isnasc" { m-*, n-* }
+QS "L_isca" { f-*, s-*, sh-*, x-*, h-* }
+QS "L_issa" { b-*, d-*, g-* }
+QS "L_issaas" { p-*, t-*, k-* }
+QS "L_isl" { l-* }
+QS "L_isr" { r-* }
+QS "L_iszero" { aa-*, oo-*, ee-*, ih-*, uu-*, vv-* }
+QS "L_a" { aHT-*, aRT-*, aDT-*, aFT-* }
+QS "L_ai" { aiHT-*, aiRT-*, aiDT-*, aiFT-* }
+QS "L_an" { anHT-*, anRT-*, anDT-*, anFT-* }
+QS "L_ang" { angHT-*, angRT-*, angDT-*, angFT-* }
+QS "L_ao" { aoHT-*, aoRT-*, aoDT-*, aoFT-* }
+QS "L_e" { eHT-*, eRT-*, eDT-*, eFT-* }
+QS "L_ei" { eiHT-*, eiRT-*, eiDT-*, eiFT-* }
+QS "L_en" { enHT-*, enRT-*, enDT-*, enFT-* }
+QS "L_eng7" { engHT-*, engRT-*, engDT-*, engFT-* }
+QS "L_er" { erHT-*, erRT-*, erDT-*, erFT-* }
+QS "L_i" { iHT-*, iRT-*, iDT-*, iFT-* }
+QS "L_ia" { iaHT-*, iaRT-*, iaDT-*, iaFT-* }
+QS "L_ian" { ianHT-*, ianRT-*, ianDT-*, ianFT-* }
+QS "L_iang" { iangHT-*, iangRT-*, iangDT-*, iangFT-* }
+QS "L_iao" { iaoHT-*, iaoRT-*, iaoDT-*, iaoFT-* }
+QS "L_ie7" { ieHT-*, ieRT-*, ieDT-*, ieFT-* }
+QS "L_in" { inHT-*, inRT-*, inDT-*, inFT-* }
+QS "L_ing" { ingHT-*, ingRT-*, ingDT-*, ingFT-* }
+QS "L_iong" { iongHT-*, iongRT-*, iongDT-*, iongFT-* }
+QS "L_iou" { iouHT-*, iouRT-*, iouDT-*, iouFT-* }
+QS "L_iii" { iiiHT-*, iiiRT-*, iiiDT-*, iiiFT-* }
+QS "L_ii" { iiHT-*, iiRT-*, iiDT-*, iiFT-* }
+QS "L_o" { oHT-*, oRT-*, oDT-*, oFT-* }
+QS "L_ong" { ongHT-*, ongRT-*, ongDT-*, ongFT-* }
+QS "L_ou" { ouHT-*, ouRT-*, ouDT-*, ouFT-* }
+QS "L_u" { uHT-*, uRT-*, uDT-*, uFT-* }
+QS "L_ua" { uaHT-*, uaRT-*, uaDT-*, uaFT-* }
+QS "L_uai" { uaiHT-*, uaiRT-*, uaiDT-*, uaiFT-* }
+QS "L_uan" { uanHT-*, uanRT-*, uanDT-*, uanFT-* }
+QS "L_uang" { uangHT-*, uangRT-*, uangDT-*, uangFT-* }
+QS "L_uei" { ueiHT-*, ueiRT-*, ueiDT-*, ueiFT-* }
+QS "L_uen" { uenHT-*, uenRT-*, uenDT-*, uenFT-* }
+QS "L_uo" { uoHT-*, uoRT-*, uoDT-*, uoFT-* }
+QS "L_v" { vHT-*, vRT-*, vDT-*, vFT-* }
+QS "L_van" { vanHT-*, vanRT-*, vanDT-*, vanFT-* }
+QS "L_ve" { veHT-*, veRT-*, veDT-*, veFT-* }
+QS "L_vn" { vnHT-*, vnRT-*, vnDT-*, vnFT-* }
+QS "L_a_a" { aHT-*, aRT-*, aFT-* }
+QS "L_ai0" { aiHT-*, aiRT-*, aiFT-* }
+QS "L_an0" { anHT-*, anRT-*, anFT-* }
+QS "L_ang0" { angHT-*, angRT-*, angFT-* }
+QS "L_ao0" { aoHT-*, aoRT-*, aoFT-* }
+QS "L_e0" { eHT-*, eRT-*, eFT-* }
+QS "L_ei0" { eiHT-*, eiRT-*, eiFT-* }
+QS "L_en0" { enHT-*, enRT-*, enFT-* }
+QS "L_eng8" { engHT-*, engRT-*, engFT-* }
+QS "L_er0" { erHT-*, erRT-*, erFT-* }
+QS "L_i0" { iHT-*, iRT-*, iFT-* }
+QS "L_ia0" { iaHT-*, iaRT-*, iaFT-* }
+QS "L_ian0" { ianHT-*, ianRT-*, ianFT-* }
+QS "L_iang0" { iangHT-*, iangRT-*, iangFT-* }
+QS "L_iao0" { iaoHT-*, iaoRT-*, iaoFT-* }
+QS "L_ie8" { ieHT-*, ieRT-*, ieFT-* }
+QS "L_in0" { inHT-*, inRT-*, inFT-* }
+QS "L_ing0" { ingHT-*, ingRT-*, ingFT-* }
+QS "L_iong0" { iongHT-*, iongRT-*, iongFT-* }
+QS "L_iou0" { iouHT-*, iouRT-*, iouFT-* }
+QS "L_iii0" { iiiHT-*, iiiRT-*, iiiFT-* }
+QS "L_ii0" { iiHT-*, iiRT-*, iiFT-* }
+QS "L_o0" { oHT-*, oRT-*, oFT-* }
+QS "L_ong0" { ongHT-*, ongRT-*, ongFT-* }
+QS "L_ou0" { ouHT-*, ouRT-*, ouFT-* }
+QS "L_u0" { uHT-*, uRT-*, uFT-* }
+QS "L_ua0" { uaHT-*, uaRT-*, uaFT-* }
+QS "L_uai0" { uaiHT-*, uaiRT-*, uaiFT-* }
+QS "L_uan0" { uanHT-*, uanRT-*, uanFT-* }
+QS "L_uang0" { uangHT-*, uangRT-*, uangFT-* }
+QS "L_uei0" { ueiHT-*, ueiRT-*, ueiFT-* }
+QS "L_uen0" { uenHT-*, uenRT-*, uenFT-* }
+QS "L_uo0" { uoHT-*, uoRT-*, uoFT-* }
+QS "L_v0" { vHT-*, vRT-*, vFT-* }
+QS "L_van0" { vanHT-*, vanRT-*, vanFT-* }
+QS "L_ve0" { veHT-*, veRT-*, veFT-* }
+QS "L_vn0" { vnHT-*, vnRT-*, vnFT-* }
+QS "L_a_a12" { aHT-*, aRT-* }
+QS "L_ai012" { aiHT-*, aiRT-* }
+QS "L_an012" { anHT-*, anRT-* }
+QS "L_ang012" { angHT-*, angRT-* }
+QS "L_ao012" { aoHT-*, aoRT-* }
+QS "L_e012" { eHT-*, eRT-* }
+QS "L_ei012" { eiHT-*, eiRT-* }
+QS "L_en012" { enHT-*, enRT-* }
+QS "L_eng812" { engHT-*, engRT-* }
+QS "L_er012" { erHT-*, erRT-* }
+QS "L_i012" { iHT-*, iRT-* }
+QS "L_ia012" { iaHT-*, iaRT-* }
+QS "L_ian012" { ianHT-*, ianRT-* }
+QS "L_iang012" { iangHT-*, iangRT-* }
+QS "L_iao012" { iaoHT-*, iaoRT-* }
+QS "L_ie812" { ieHT-*, ieRT-* }
+QS "L_in012" { inHT-*, inRT-* }
+QS "L_ing012" { ingHT-*, ingRT-* }
+QS "L_iong012" { iongHT-*, iongRT-* }
+QS "L_iou012" { iouHT-*, iouRT-* }
+QS "L_iii012" { iiiHT-*, iiiRT-* }
+QS "L_ii012" { iiHT-*, iiRT-* }
+QS "L_o012" { oHT-*, oRT-* }
+QS "L_ong012" { ongHT-*, ongRT-* }
+QS "L_ou012" { ouHT-*, ouRT-* }
+QS "L_u012" { uHT-*, uRT-* }
+QS "L_ua012" { uaHT-*, uaRT-* }
+QS "L_uai012" { uaiHT-*, uaiRT-* }
+QS "L_uan012" { uanHT-*, uanRT-* }
+QS "L_uang012" { uangHT-*, uangRT-* }
+QS "L_uei012" { ueiHT-*, ueiRT-* }
+QS "L_uen012" { uenHT-*, uenRT-* }
+QS "L_uo012" { uoHT-*, uoRT-* }
+QS "L_v012" { vHT-*, vRT-* }
+QS "L_van012" { vanHT-*, vanRT-* }
+QS "L_ve012" { veHT-*, veRT-* }
+QS "L_vn012" { vnHT-*, vnRT-* }
+QS "L_a1" { aHT-* }
+QS "L_a2" { aRT-* }
+QS "L_a3" { aDT-* }
+QS "L_a4" { aFT-* }
+QS "L_ai1" { aiHT-* }
+QS "L_ai2" { aiRT-* }
+QS "L_ai3" { aiDT-* }
+QS "L_ai4" { aiFT-* }
+QS "L_an1" { anHT-* }
+QS "L_an2" { anRT-* }
+QS "L_an3" { anDT-* }
+QS "L_an4" { anFT-* }
+QS "L_ang1" { angHT-* }
+QS "L_ang2" { angRT-* }
+QS "L_ang3" { angDT-* }
+QS "L_ang4" { angFT-* }
+QS "L_ao1" { aoHT-* }
+QS "L_ao2" { aoRT-* }
+QS "L_ao3" { aoDT-* }
+QS "L_ao4" { aoFT-* }
+QS "L_e1" { eHT-* }
+QS "L_e2" { eRT-* }
+QS "L_e3" { eDT-* }
+QS "L_e4" { eFT-* }
+QS "L_ei1" { eiHT-* }
+QS "L_ei2" { eiRT-* }
+QS "L_ei3" { eiDT-* }
+QS "L_ei4" { eiFT-* }
+QS "L_en1" { enHT-* }
+QS "L_en2" { enRT-* }
+QS "L_en3" { enDT-* }
+QS "L_en4" { enFT-* }
+QS "L_eng1" { engHT-* }
+QS "L_eng2" { engRT-* }
+QS "L_eng3" { engDT-* }
+QS "L_eng4" { engFT-* }
+QS "L_er1" { erHT-* }
+QS "L_er2" { erRT-* }
+QS "L_er3" { erDT-* }
+QS "L_er4" { erFT-* }
+QS "L_i1" { iHT-* }
+QS "L_i2" { iRT-* }
+QS "L_i3" { iDT-* }
+QS "L_i4" { iFT-* }
+QS "L_ia1" { iaHT-* }
+QS "L_ia2" { iaRT-* }
+QS "L_ia3" { iaDT-* }
+QS "L_ia4" { iaFT-* }
+QS "L_ian1" { ianHT-* }
+QS "L_ian2" { ianRT-* }
+QS "L_ian3" { ianDT-* }
+QS "L_ian4" { ianFT-* }
+QS "L_iang1" { iangHT-* }
+QS "L_iang2" { iangRT-* }
+QS "L_iang3" { iangDT-* }
+QS "L_iang4" { iangFT-* }
+QS "L_iao1" { iaoHT-* }
+QS "L_iao2" { iaoRT-* }
+QS "L_iao3" { iaoDT-* }
+QS "L_iao4" { iaoFT-* }
+QS "L_ie1" { ieHT-* }
+QS "L_ie2" { ieRT-* }
+QS "L_ie3" { ieDT-* }
+QS "L_ie4" { ieFT-* }
+QS "L_in1" { inHT-* }
+QS "L_in2" { inRT-* }
+QS "L_in3" { inDT-* }
+QS "L_in4" { inFT-* }
+QS "L_ing1" { ingHT-* }
+QS "L_ing2" { ingRT-* }
+QS "L_ing3" { ingDT-* }
+QS "L_ing4" { ingFT-* }
+QS "L_iong1" { iongHT-* }
+QS "L_iong2" { iongRT-* }
+QS "L_iong3" { iongDT-* }
+QS "L_iong4" { iongFT-* }
+QS "L_iou1" { iouHT-* }
+QS "L_iou2" { iouRT-* }
+QS "L_iou3" { iouDT-* }
+QS "L_iou4" { iouFT-* }
+QS "L_iii1" { iiiHT-* }
+QS "L_iii2" { iiiRT-* }
+QS "L_iii3" { iiiDT-* }
+QS "L_iii4" { iiiFT-* }
+QS "L_ii1" { iiHT-* }
+QS "L_ii2" { iiRT-* }
+QS "L_ii3" { iiDT-* }
+QS "L_ii4" { iiFT-* }
+QS "L_o1" { oHT-* }
+QS "L_o2" { oRT-* }
+QS "L_o3" { oDT-* }
+QS "L_o4" { oFT-* }
+QS "L_ong1" { ongHT-* }
+QS "L_ong2" { ongRT-* }
+QS "L_ong3" { ongDT-* }
+QS "L_ong4" { ongFT-* }
+QS "L_ou1" { ouHT-* }
+QS "L_ou2" { ouRT-* }
+QS "L_ou3" { ouDT-* }
+QS "L_ou4" { ouFT-* }
+QS "L_u1" { uHT-* }
+QS "L_u2" { uRT-* }
+QS "L_u3" { uDT-* }
+QS "L_u4" { uFT-* }
+QS "L_ua1" { uaHT-* }
+QS "L_ua2" { uaRT-* }
+QS "L_ua3" { uaDT-* }
+QS "L_ua4" { uaFT-* }
+QS "L_uai1" { uaiHT-* }
+QS "L_uai2" { uaiRT-* }
+QS "L_uai3" { uaiDT-* }
+QS "L_uai4" { uaiFT-* }
+QS "L_uan1" { uanHT-* }
+QS "L_uan2" { uanRT-* }
+QS "L_uan3" { uanDT-* }
+QS "L_uan4" { uanFT-* }
+QS "L_uang1" { uangHT-* }
+QS "L_uang2" { uangRT-* }
+QS "L_uang3" { uangDT-* }
+QS "L_uang4" { uangFT-* }
+QS "L_uei1" { ueiHT-* }
+QS "L_uei2" { ueiRT-* }
+QS "L_uei3" { ueiDT-* }
+QS "L_uei4" { ueiFT-* }
+QS "L_uen1" { uenHT-* }
+QS "L_uen2" { uenRT-* }
+QS "L_uen3" { uenDT-* }
+QS "L_uen4" { uenFT-* }
+QS "L_uo1" { uoHT-* }
+QS "L_uo2" { uoRT-* }
+QS "L_uo3" { uoDT-* }
+QS "L_uo4" { uoFT-* }
+QS "L_v1" { vHT-* }
+QS "L_v2" { vRT-* }
+QS "L_v3" { vDT-* }
+QS "L_v4" { vFT-* }
+QS "L_van1" { vanHT-* }
+QS "L_van2" { vanRT-* }
+QS "L_van3" { vanDT-* }
+QS "L_van4" { vanFT-* }
+QS "L_ve1" { veHT-* }
+QS "L_ve2" { veRT-* }
+QS "L_ve3" { veDT-* }
+QS "L_ve4" { veFT-* }
+QS "L_vn1" { vnHT-* }
+QS "L_vn2" { vnRT-* }
+QS "L_vn3" { vnDT-* }
+QS "L_vn4" { vnFT-* }
+QS "L_b" { b-* }
+QS "L_c" { c-* }
+QS "L_ch" { ch-* }
+QS "L_d" { d-* }
+QS "L_f" { f-* }
+QS "L_g" { g-* }
+QS "L_h" { h-* }
+QS "L_j" { j-* }
+QS "L_k" { k-* }
+QS "L_l" { l-* }
+QS "L_m" { m-* }
+QS "L_n" { n-* }
+QS "L_oo" { oo-* }
+QS "L_p" { p-* }
+QS "L_q" { q-* }
+QS "L_r" { r-* }
+QS "L_s" { s-* }
+QS "L_sh" { sh-* }
+QS "L_t" { t-* }
+QS "L_uu" { uu-* }
+QS "L_vv" { vv-* }
+QS "L_aa" { aa-* }
+QS "L_ee" { ee-* }
+QS "L_ih" { ih-* }
+QS "L_x" { x-* }
+QS "L_z" { z-* }
+QS "L_zh" { zh-* }
+QS "R_silence" { *+sil }
+QS "R_nonbouendary" { *+* }
+QS "R_isvowel" { *+*HT, *+*RT, *+*DT, *+*FT }
+QS "R_highstart" { *+*HT, *+*FT }
+QS "R_high" { *+*HT }
+QS "R_rise" { *+*RT }
+QS "R_dipping" { *+*DT }
+QS "R_falling" { *+*FT }
+QS "R_iskaihe" { *+uHT, *+uRT, *+uDT, *+uFT, *+uaHT, *+uaRT, *+uaDT, *+uaFT, *+uoHT, *+uoRT, *+uoDT, *+uoFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+aHT, *+aRT, *+aDT, *+aFT, *+oHT, *+oRT, *+oDT, *+oFT, *+eHT, *+eRT, *+eDT, *+eFT, *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT, *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT, *+iiHT, *+iiRT, *+iiDT, *+iiFT, *+erHT, *+erRT, *+erDT, *+erFT }
+QS "R_iskaiqi" { *+aHT, *+aRT, *+aDT, *+aFT, *+oHT, *+oRT, *+oDT, *+oFT, *+eHT, *+eRT, *+eDT, *+eFT, *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT, *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT, *+iiHT, *+iiRT, *+iiDT, *+iiFT, *+erHT, *+erRT, *+erDT, *+erFT, *+iHT, *+iRT, *+iDT, *+iFT, *+iaHT, *+iaRT, *+iaDT, *+iaFT, *+ieHT, *+ieRT, *+ieDT, *+ieFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_iskaicuo" { *+vHT, *+vRT, *+vDT, *+vFT, *+veHT, *+veRT, *+veDT, *+veFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT, *+aHT, *+aRT, *+aDT, *+aFT, *+oHT, *+oRT, *+oDT, *+oFT, *+eHT, *+eRT, *+eDT, *+eFT, *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT, *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT, *+iiHT, *+iiRT, *+iiDT, *+iiFT, *+erHT, *+erRT, *+erDT, *+erFT }
+QS "R_isheqi" { *+uHT, *+uRT, *+uDT, *+uFT, *+uaHT, *+uaRT, *+uaDT, *+uaFT, *+uoHT, *+uoRT, *+uoDT, *+uoFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+iHT, *+iRT, *+iDT, *+iFT, *+iaHT, *+iaRT, *+iaDT, *+iaFT, *+ieHT, *+ieRT, *+ieDT, *+ieFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_ishecuo" { *+vHT, *+vRT, *+vDT, *+vFT, *+veHT, *+veRT, *+veDT, *+veFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT, *+uHT, *+uRT, *+uDT, *+uFT, *+uaHT, *+uaRT, *+uaDT, *+uaFT, *+uoHT, *+uoRT, *+uoDT, *+uoFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT }
+QS "R_isqicuo" { *+vHT, *+vRT, *+vDT, *+vFT, *+veHT, *+veRT, *+veDT, *+veFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT, *+iHT, *+iRT, *+iDT, *+iFT, *+iaHT, *+iaRT, *+iaDT, *+iaFT, *+ieHT, *+ieRT, *+ieDT, *+ieFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_beg-a" { *+aHT, *+aRT, *+aDT, *+aFT, *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+anHT, *+anRT, *+anDT, *+anFT, *+angHT, *+angRT, *+angDT, *+angFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT }
+QS "R_beg-iii" { *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT }
+QS "R_beg-o" { *+oHT, *+oRT, *+oDT, *+oFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT }
+QS "R_beg-u" { *+uHT, *+uRT, *+uDT, *+uFT, *+uaHT, *+uaRT, *+uaDT, *+uaFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uoHT, *+uoRT, *+uoDT, *+uoFT }
+QS "R_beg_i" { *+iHT, *+iRT, *+iDT, *+iFT, *+iiHT, *+iiRT, *+iiDT, *+iiFT, *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT, *+iaHT, *+iaRT, *+iaDT, *+iaFT, *+ieHT, *+ieRT, *+ieDT, *+ieFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_beg_v" { *+vHT, *+vRT, *+vDT, *+vFT, *+veHT, *+veRT, *+veDT, *+veFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_beg-a1" { *+aHT, *+aRT, *+aDT, *+aFT, *+iaHT, *+iaRT, *+iaDT, *+iaFT, *+uaHT, *+uaRT, *+uaDT, *+uaFT }
+QS "R_beg_o1" { *+oHT, *+oRT, *+oDT, *+oFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+uoHT, *+uoRT, *+uoDT, *+uoFT }
+QS "R_beg_i1" { *+iHT, *+iRT, *+iDT, *+iFT, *+iiHT, *+iiRT, *+iiDT, *+iiFT, *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT, *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT }
+QS "R_beg_u_wei" { *+uHT, *+uRT, *+uDT, *+uFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT }
+QS "R_beg_v1" { *+vHT, *+vRT, *+vDT, *+vFT }
+QS "R_beg_n" { *+anHT, *+anRT, *+anDT, *+anFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+enHT, *+enRT, *+enDT, *+enFT, *+inHT, *+inRT, *+inDT, *+inFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_beg_ng" { *+angHT, *+angRT, *+angDT, *+angFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+engHT, *+engRT, *+engDT, *+engFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_beg_er" { *+erHT, *+erRT, *+erDT, *+erFT }
+QS "R_beg-ai" { *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT }
+QS "R_beg-ang" { *+angHT, *+angRT, *+angDT, *+angFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT }
+QS "R_beg_an" { *+anHT, *+anRT, *+anDT, *+anFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT }
+QS "R_beg_en" { *+enHT, *+enRT, *+enDT, *+enFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_beg-ao" { *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT }
+QS "R_beg-ei" { *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT }
+QS "R_eng" { *+engHT, *+engRT, *+engDT, *+engFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT }
+QS "R_ong_iong" { *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_ie" { *+ieHT, *+ieRT, *+ieDT, *+ieFT, *+veHT, *+veRT, *+veDT, *+veFT }
+QS "R_fd-fubiweiiing" { *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+inHT, *+inRT, *+inDT, *+inFT, *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_fd-fuyuanying" { *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT }
+QS "R_md-fuyuanying" { *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT }
+QS "R_iskaiheT1T4" { *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT, *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT, *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT }
+QS "R_iskaiqiT1T4" { *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT, *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_iskaicuoT1T4" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT, *+vFT, *+veFT, *+vanFT, *+vnFT, *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT }
+QS "R_isheqiT1T4" { *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_ishecuoT1T4" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+vFT, *+veFT, *+vanFT, *+vnFT, *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT }
+QS "R_isqicuoT1T4" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+vFT, *+veFT, *+vanFT, *+vnFT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_beg-a2T1T4" { *+aHT, *+aiHT, *+anHT, *+angHT, *+aoHT, *+aFT, *+aiFT, *+anFT, *+angFT, *+aoFT }
+QS "R_beg-iii1T1T4" { *+iiiHT, *+iiiFT }
+QS "R_beg-o1T1T4" { *+oHT, *+ongHT, *+ouHT, *+oFT, *+ongFT, *+ouFT }
+QS "R_beg-u1T1T4" { *+uHT, *+uaHT, *+uanHT, *+uangHT, *+ongHT, *+ueiHT, *+uenHT, *+uoHT, *+uFT, *+uaFT, *+uanFT, *+uangFT, *+ongFT, *+ueiFT, *+uenFT, *+uoFT }
+QS "R_beg_iT1T4" { *+iHT, *+iiHT, *+iiiHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+iFT, *+iiFT, *+iiiFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_beg_vT1T4" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+vFT, *+veFT, *+vanFT, *+vnFT }
+QS "R_beg-a3T1T4" { *+aHT, *+iaHT, *+uaHT, *+aFT, *+iaFT, *+uaFT }
+QS "R_beg_o1T1T4" { *+oHT, *+aoHT, *+iaoHT, *+uoHT, *+oFT, *+aoFT, *+iaoFT, *+uoFT }
+QS "R_beg_i1T1T4" { *+iHT, *+iiHT, *+iiiHT, *+aiHT, *+eiHT, *+uaiHT, *+ueiHT, *+iFT, *+iiFT, *+iiiFT, *+aiFT, *+eiFT, *+uaiFT, *+ueiFT }
+QS "R_beg_u_weiT1T4" { *+uHT, *+ouHT, *+iouHT, *+uFT, *+ouFT, *+iouFT }
+QS "R_beg_v1T1T4" { *+vHT, *+vFT }
+QS "R_beg_nT1T4" { *+anHT, *+ianHT, *+uanHT, *+vanHT, *+enHT, *+inHT, *+vnHT, *+uenHT, *+anFT, *+ianFT, *+uanFT, *+vanFT, *+enFT, *+inFT, *+vnFT, *+uenFT }
+QS "R_beg_ngT1T4" { *+angHT, *+iangHT, *+uangHT, *+engHT, *+ingHT, *+ongHT, *+iongHT, *+angFT, *+iangFT, *+uangFT, *+engFT, *+ingFT, *+ongFT, *+iongFT }
+QS "R_beg_erT1T4" { *+erHT, *+erFT }
+QS "R_beg-ai1T1T4" { *+aiHT, *+uaiHT, *+aiFT, *+uaiFT }
+QS "R_beg-ang1T1T4" { *+angHT, *+iangHT, *+uangHT, *+angFT, *+iangFT, *+uangFT }
+QS "R_beg_an1T1T4" { *+anHT, *+ianHT, *+uanHT, *+vanHT, *+anFT, *+ianFT, *+uanFT, *+vanFT }
+QS "R_beg_en1T1T4" { *+enHT, *+uenHT, *+vnHT, *+enFT, *+uenFT, *+vnFT }
+QS "R_beg-ao1T1T4" { *+aoHT, *+iaoHT, *+aoFT, *+iaoFT }
+QS "R_beg-ei1T1T4" { *+eiHT, *+ueiHT, *+eiFT, *+ueiFT }
+QS "R_eng1-aT1T4" { *+engHT, *+ongHT, *+engFT, *+ongFT }
+QS "R_ong_iongT1T4" { *+ongHT, *+iongHT, *+ongFT, *+iongFT }
+QS "R_ie1-aT1T4" { *+ieHT, *+veHT, *+ieFT, *+veFT }
+QS "R_fd-fubiweiiingT1T4" { *+anHT, *+enHT, *+inHT, *+angHT, *+engHT, *+ingHT, *+ongHT, *+vnHT, *+anFT, *+enFT, *+inFT, *+angFT, *+engFT, *+ingFT, *+ongFT, *+vnFT }
+QS "R_fd-fuyuanyingT1T4" { *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+aiFT, *+eiFT, *+aoFT, *+ouFT }
+QS "R_md-fuyuanyingT1T4" { *+iaoHT, *+iouHT, *+uaiHT, *+ueiHT, *+iaoFT, *+iouFT, *+uaiFT, *+ueiFT }
+QS "R_iskaiheT3" { *+uDT, *+uaDT, *+uoDT, *+uaiDT, *+ueiDT, *+uanDT, *+uenDT, *+uangDT, *+ongDT, *+aDT, *+oDT, *+eDT, *+aiDT, *+eiDT, *+aoDT, *+ouDT, *+anDT, *+enDT, *+angDT, *+engDT, *+iiiDT, *+iiDT, *+erDT }
+QS "R_iskaiqiT3" { *+aDT, *+oDT, *+eDT, *+aiDT, *+eiDT, *+aoDT, *+ouDT, *+anDT, *+enDT, *+angDT, *+engDT, *+iiiDT, *+iiDT, *+erDT, *+iDT, *+iaDT, *+ieDT, *+iaoDT, *+iouDT, *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT }
+QS "R_iskaicuoT3" { *+vDT, *+veDT, *+vanDT, *+vnDT, *+aDT, *+oDT, *+eDT, *+aiDT, *+eiDT, *+aoDT, *+ouDT, *+anDT, *+enDT, *+angDT, *+engDT, *+iiiDT, *+iiDT, *+erDT }
+QS "R_isheqiT3" { *+uDT, *+uaDT, *+uoDT, *+uaiDT, *+ueiDT, *+uanDT, *+uenDT, *+uangDT, *+ongDT, *+iDT, *+iaDT, *+ieDT, *+iaoDT, *+iouDT, *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT }
+QS "R_ishecuoT3" { *+vDT, *+veDT, *+vanDT, *+vnDT, *+uDT, *+uaDT, *+uoDT, *+uaiDT, *+ueiDT, *+uanDT, *+uenDT, *+uangDT, *+ongDT }
+QS "R_isqicuoT3" { *+vDT, *+veDT, *+vanDT, *+vnDT, *+iDT, *+iaDT, *+ieDT, *+iaoDT, *+iouDT, *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT }
+QS "R_beg-a2" { *+aDT, *+aiDT, *+anDT, *+angDT, *+aoDT }
+QS "R_beg-iii1" { *+iiiDT }
+QS "R_beg-o1" { *+oDT, *+ongDT, *+ouDT }
+QS "R_beg-u1" { *+uDT, *+uaDT, *+uanDT, *+uangDT, *+ongDT, *+ueiDT, *+uenDT, *+uoDT }
+QS "R_beg_iT3" { *+iDT, *+iiDT, *+iiiDT, *+iaDT, *+ieDT, *+iaoDT, *+iouDT, *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT }
+QS "R_beg_vT3" { *+vDT, *+veDT, *+vanDT, *+vnDT }
+QS "R_beg-a3" { *+aDT, *+iaDT, *+uaDT }
+QS "R_beg_o1T3" { *+oDT, *+aoDT, *+iaoDT, *+uoDT }
+QS "R_beg_i1T3" { *+iDT, *+iiDT, *+iiiDT, *+aiDT, *+eiDT, *+uaiDT, *+ueiDT }
+QS "R_beg_u_weiT3" { *+uDT, *+ouDT, *+iouDT }
+QS "R_beg_v1T3" { *+vDT }
+QS "R_beg_nT3" { *+anDT, *+ianDT, *+uanDT, *+vanDT, *+enDT, *+inDT, *+vnDT, *+uenDT }
+QS "R_beg_ngT3" { *+angDT, *+iangDT, *+uangDT, *+engDT, *+ingDT, *+ongDT, *+iongDT }
+QS "R_beg_erT3" { *+erDT }
+QS "R_beg-ai1" { *+aiDT, *+uaiDT }
+QS "R_beg-ang1" { *+angDT, *+iangDT, *+uangDT }
+QS "R_beg_an1" { *+anDT, *+ianDT, *+uanDT, *+vanDT }
+QS "R_beg_en1" { *+enDT, *+uenDT, *+vnDT }
+QS "R_beg-ao1" { *+aoDT, *+iaoDT }
+QS "R_beg-ei1" { *+eiDT, *+ueiDT }
+QS "R_eng1-a" { *+engDT, *+ongDT }
+QS "R_ong_iongT3" { *+ongDT, *+iongDT }
+QS "R_ie1-a" { *+ieDT, *+veDT }
+QS "R_fd-fubiweiiing1" { *+anDT, *+enDT, *+inDT, *+angDT, *+engDT, *+ingDT, *+ongDT, *+vnDT }
+QS "R_fd-fuyuanying1" { *+aiDT, *+eiDT, *+aoDT, *+ouDT }
+QS "R_md-fuyuanying1" { *+iaoDT, *+iouDT, *+uaiDT, *+ueiDT }
+QS "R_iskaiheT1" { *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT }
+QS "R_iskaiqiT1" { *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT, *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT }
+QS "R_iskaicuoT1" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT }
+QS "R_isheqiT1" { *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT }
+QS "R_ishecuoT1" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT }
+QS "R_isqicuoT1" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT }
+QS "R_beg-a4" { *+aHT, *+aiHT, *+anHT, *+angHT, *+aoHT }
+QS "R_beg-iii2" { *+iiiHT }
+QS "R_beg-o2" { *+oHT, *+ongHT, *+ouHT }
+QS "R_beg-u2" { *+uHT, *+uaHT, *+uanHT, *+uangHT, *+ongHT, *+ueiHT, *+uenHT, *+uoHT }
+QS "R_beg_iT1" { *+iHT, *+iiHT, *+iiiHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT }
+QS "R_beg_vT1" { *+vHT, *+veHT, *+vanHT, *+vnHT }
+QS "R_beg-a5" { *+aHT, *+iaHT, *+uaHT }
+QS "R_beg_o1T1" { *+oHT, *+aoHT, *+iaoHT, *+uoHT }
+QS "R_beg_i1T1" { *+iHT, *+iiHT, *+iiiHT, *+aiHT, *+eiHT, *+uaiHT, *+ueiHT }
+QS "R_beg_u_weiT1" { *+uHT, *+ouHT, *+iouHT }
+QS "R_beg_v1T1" { *+vHT }
+QS "R_beg_nT1" { *+anHT, *+ianHT, *+uanHT, *+vanHT, *+enHT, *+inHT, *+vnHT, *+uenHT }
+QS "R_beg_ngT1" { *+angHT, *+iangHT, *+uangHT, *+engHT, *+ingHT, *+ongHT, *+iongHT }
+QS "R_beg_erT1" { *+erHT }
+QS "R_beg-ai2" { *+aiHT, *+uaiHT }
+QS "R_beg-ang2" { *+angHT, *+iangHT, *+uangHT }
+QS "R_beg_an2" { *+anHT, *+ianHT, *+uanHT, *+vanHT }
+QS "R_beg_en2" { *+enHT, *+uenHT, *+vnHT }
+QS "R_beg-ao2" { *+aoHT, *+iaoHT }
+QS "R_beg-ei2" { *+eiHT, *+ueiHT }
+QS "R_eng2-a" { *+engHT, *+ongHT }
+QS "R_ong_iongT1" { *+ongHT, *+iongHT }
+QS "R_ie2-a" { *+ieHT, *+veHT }
+QS "R_fd-fubiweiiing2" { *+anHT, *+enHT, *+inHT, *+angHT, *+engHT, *+ingHT, *+ongHT, *+vnHT }
+QS "R_fd-fuyuanying2" { *+aiHT, *+eiHT, *+aoHT, *+ouHT }
+QS "R_md-fuyuanying2" { *+iaoHT, *+iouHT, *+uaiHT, *+ueiHT }
+QS "R_iskaiheT2" { *+uRT, *+uaRT, *+uoRT, *+uaiRT, *+ueiRT, *+uanRT, *+uenRT, *+uangRT, *+ongRT, *+aRT, *+oRT, *+eRT, *+aiRT, *+eiRT, *+aoRT, *+ouRT, *+anRT, *+enRT, *+angRT, *+engRT, *+iiiRT, *+iiRT, *+erRT }
+QS "R_iskaiqiT2" { *+aRT, *+oRT, *+eRT, *+aiRT, *+eiRT, *+aoRT, *+ouRT, *+anRT, *+enRT, *+angRT, *+engRT, *+iiiRT, *+iiRT, *+erRT, *+iRT, *+iaRT, *+ieRT, *+iaoRT, *+iouRT, *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT }
+QS "R_iskaicuoT2" { *+vRT, *+veRT, *+vanRT, *+vnRT, *+aRT, *+oRT, *+eRT, *+aiRT, *+eiRT, *+aoRT, *+ouRT, *+anRT, *+enRT, *+angRT, *+engRT, *+iiiRT, *+iiRT, *+erRT }
+QS "R_isheqiT2" { *+uRT, *+uaRT, *+uoRT, *+uaiRT, *+ueiRT, *+uanRT, *+uenRT, *+uangRT, *+ongRT, *+iRT, *+iaRT, *+ieRT, *+iaoRT, *+iouRT, *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT }
+QS "R_ishecuoT2" { *+vRT, *+veRT, *+vanRT, *+vnRT, *+uRT, *+uaRT, *+uoRT, *+uaiRT, *+ueiRT, *+uanRT, *+uenRT, *+uangRT, *+ongRT }
+QS "R_isqicuoT2" { *+vRT, *+veRT, *+vanRT, *+vnRT, *+iRT, *+iaRT, *+ieRT, *+iaoRT, *+iouRT, *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT }
+QS "R_beg-a6" { *+aRT, *+aiRT, *+anRT, *+angRT, *+aoRT }
+QS "R_beg-iii3" { *+iiiRT }
+QS "R_beg-o3" { *+oRT, *+ongRT, *+ouRT }
+QS "R_beg-u3" { *+uRT, *+uaRT, *+uanRT, *+uangRT, *+ongRT, *+ueiRT, *+uenRT, *+uoRT }
+QS "R_beg_iT2" { *+iRT, *+iiRT, *+iiiRT, *+iaRT, *+ieRT, *+iaoRT, *+iouRT, *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT }
+QS "R_beg_vT2" { *+vRT, *+veRT, *+vanRT, *+vnRT }
+QS "R_beg-a7" { *+aRT, *+iaRT, *+uaRT }
+QS "R_beg_o1T2" { *+oRT, *+aoRT, *+iaoRT, *+uoRT }
+QS "R_beg_i1T2" { *+iRT, *+iiRT, *+iiiRT, *+aiRT, *+eiRT, *+uaiRT, *+ueiRT }
+QS "R_beg_u_weiT2" { *+uRT, *+ouRT, *+iouRT }
+QS "R_beg_v1T2" { *+vRT }
+QS "R_beg_nT2" { *+anRT, *+ianRT, *+uanRT, *+vanRT, *+enRT, *+inRT, *+vnRT, *+uenRT }
+QS "R_beg_ngT2" { *+angRT, *+iangRT, *+uangRT, *+engRT, *+ingRT, *+ongRT, *+iongRT }
+QS "R_beg_erT2" { *+erRT }
+QS "R_beg-ai3" { *+aiRT, *+uaiRT }
+QS "R_beg-ang3" { *+angRT, *+iangRT, *+uangRT }
+QS "R_beg_an3" { *+anRT, *+ianRT, *+uanRT, *+vanRT }
+QS "R_beg_en3" { *+enRT, *+uenRT, *+vnRT }
+QS "R_beg-ao3" { *+aoRT, *+iaoRT }
+QS "R_beg-ei3" { *+eiRT, *+ueiRT }
+QS "R_eng3-a" { *+engRT, *+ongRT }
+QS "R_ong_iongT2" { *+ongRT, *+iongRT }
+QS "R_ie3-a" { *+ieRT, *+veRT }
+QS "R_fd-fubiweiiing3" { *+anRT, *+enRT, *+inRT, *+angRT, *+engRT, *+ingRT, *+ongRT, *+vnRT }
+QS "R_fd-fuyuanying3" { *+aiRT, *+eiRT, *+aoRT, *+ouRT }
+QS "R_md-fuyuanying3" { *+iaoRT, *+iouRT, *+uaiRT, *+ueiRT }
+QS "R_iskaiheT4" { *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT, *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT }
+QS "R_iskaiqiT4" { *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_iskaicuoT4" { *+vFT, *+veFT, *+vanFT, *+vnFT, *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT }
+QS "R_isheqiT4" { *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_ishecuoT4" { *+vFT, *+veFT, *+vanFT, *+vnFT, *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT }
+QS "R_isqicuoT4" { *+vFT, *+veFT, *+vanFT, *+vnFT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_beg-a8" { *+aFT, *+aiFT, *+anFT, *+angFT, *+aoFT }
+QS "R_beg-iii4" { *+iiiFT }
+QS "R_beg-o4" { *+oFT, *+ongFT, *+ouFT }
+QS "R_beg-u4" { *+uFT, *+uaFT, *+uanFT, *+uangFT, *+ongFT, *+ueiFT, *+uenFT, *+uoFT }
+QS "R_beg_iT4" { *+iFT, *+iiFT, *+iiiFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_beg_vT4" { *+vFT, *+veFT, *+vanFT, *+vnFT }
+QS "R_beg-a9" { *+aFT, *+iaFT, *+uaFT }
+QS "R_beg_o1T4" { *+oFT, *+aoFT, *+iaoFT, *+uoFT }
+QS "R_beg_i1T4" { *+iFT, *+iiFT, *+iiiFT, *+aiFT, *+eiFT, *+uaiFT, *+ueiFT }
+QS "R_beg_u_weiT4" { *+uFT, *+ouFT, *+iouFT }
+QS "R_beg_v1T4" { *+vFT }
+QS "R_beg_nT4" { *+anFT, *+ianFT, *+uanFT, *+vanFT, *+enFT, *+inFT, *+vnFT, *+uenFT }
+QS "R_beg_ngT4" { *+angFT, *+iangFT, *+uangFT, *+engFT, *+ingFT, *+ongFT, *+iongFT }
+QS "R_beg_erT4" { *+erFT }
+QS "R_beg-ai4" { *+aiFT, *+uaiFT }
+QS "R_beg-ang4" { *+angFT, *+iangFT, *+uangFT }
+QS "R_beg_an4" { *+anFT, *+ianFT, *+uanFT, *+vanFT }
+QS "R_beg_en4" { *+enFT, *+uenFT, *+vnFT }
+QS "R_beg-ao4" { *+aoFT, *+iaoFT }
+QS "R_beg-ei4" { *+eiFT, *+ueiFT }
+QS "R_eng4-a" { *+engFT, *+ongFT }
+QS "R_ong_iongT4" { *+ongFT, *+iongFT }
+QS "R_ie4-a" { *+ieFT, *+veFT }
+QS "R_fd-fubiweiiing4" { *+anFT, *+enFT, *+inFT, *+angFT, *+engFT, *+ingFT, *+ongFT, *+vnFT }
+QS "R_fd-fuyuanying4" { *+aiFT, *+eiFT, *+aoFT, *+ouFT }
+QS "R_md-fuyuanying4" { *+iaoFT, *+iouFT, *+uaiFT, *+ueiFT }
+QS "R_isnasal" { *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_isopen" { *+aHT, *+aRT, *+aDT, *+aFT, *+oHT, *+oRT, *+oDT, *+oFT, *+eHT, *+eRT, *+eDT, *+eFT, *+aiHT, *+aiRT, *+aiDT, *+aiFT, *+eiHT, *+eiRT, *+eiDT, *+eiFT, *+aoHT, *+aoRT, *+aoDT, *+aoFT, *+ouHT, *+ouRT, *+ouDT, *+ouFT, *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT, *+iiHT, *+iiRT, *+iiDT, *+iiFT, *+erHT, *+erRT, *+erDT, *+erFT }
+QS "R_isqi" { *+iHT, *+iRT, *+iDT, *+iFT, *+iaHT, *+iaRT, *+iaDT, *+iaFT, *+ieHT, *+ieRT, *+ieDT, *+ieFT, *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT, *+iouHT, *+iouRT, *+iouDT, *+iouFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_ishe" { *+uHT, *+uRT, *+uDT, *+uFT, *+uaHT, *+uaRT, *+uaDT, *+uaFT, *+uoHT, *+uoRT, *+uoDT, *+uoFT, *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT, *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT }
+QS "R_iscuo" { *+vHT, *+vRT, *+vDT, *+vFT, *+veHT, *+veRT, *+veDT, *+veFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_is3rdTone" { *+aDT, *+aiDT, *+anDT, *+angDT, *+aoDT, *+eDT, *+eiDT, *+enDT, *+engDT, *+erDT, *+iDT, *+iaDT, *+ianDT, *+iangDT, *+iaoDT, *+ieDT, *+inDT, *+ingDT, *+iongDT, *+iouDT, *+iiiDT, *+iiDT, *+oDT, *+ongDT, *+ouDT, *+uDT, *+uaDT, *+uaiDT, *+uanDT, *+uangDT, *+ueiDT, *+uenDT, *+uoDT, *+vDT, *+vanDT, *+veDT, *+vnDT }
+QS "R_is1stTone" { *+aHT, *+aiHT, *+anHT, *+angHT, *+aoHT, *+eHT, *+eiHT, *+enHT, *+engHT, *+erHT, *+iHT, *+iaHT, *+ianHT, *+iangHT, *+iaoHT, *+ieHT, *+inHT, *+ingHT, *+iongHT, *+iouHT, *+iiiHT, *+iiHT, *+oHT, *+ongHT, *+ouHT, *+uHT, *+uaHT, *+uaiHT, *+uanHT, *+uangHT, *+ueiHT, *+uenHT, *+uoHT, *+vHT, *+vanHT, *+veHT, *+vnHT }
+QS "R_is2ndTone" { *+aRT, *+aiRT, *+anRT, *+angRT, *+aoRT, *+eRT, *+eiRT, *+enRT, *+engRT, *+erRT, *+iRT, *+iaRT, *+ianRT, *+iangRT, *+iaoRT, *+ieRT, *+inRT, *+ingRT, *+iongRT, *+iouRT, *+iiiRT, *+iiRT, *+oRT, *+ongRT, *+ouRT, *+uRT, *+uaRT, *+uaiRT, *+uanRT, *+uangRT, *+ueiRT, *+uenRT, *+uoRT, *+vRT, *+vanRT, *+veRT, *+vnRT }
+QS "R_is4thTone" { *+aFT, *+aiFT, *+anFT, *+angFT, *+aoFT, *+eFT, *+eiFT, *+enFT, *+engFT, *+erFT, *+iFT, *+iaFT, *+ianFT, *+iangFT, *+iaoFT, *+ieFT, *+inFT, *+ingFT, *+iongFT, *+iouFT, *+iiiFT, *+iiFT, *+oFT, *+ongFT, *+ouFT, *+uFT, *+uaFT, *+uaiFT, *+uanFT, *+uangFT, *+ueiFT, *+uenFT, *+uoFT, *+vFT, *+vanFT, *+veFT, *+vnFT }
+QS "R_isnasalT1T4" { *+anHT, *+enHT, *+angHT, *+engHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+vanHT, *+vnHT, *+anFT, *+enFT, *+angFT, *+engFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT, *+vanFT, *+vnFT }
+QS "R_isopenT1T4" { *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT, *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT }
+QS "R_isqiT1T4" { *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_isheT1T4" { *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT }
+QS "R_iscuoT1T4" { *+vHT, *+veHT, *+vanHT, *+vnHT, *+vFT, *+veFT, *+vanFT, *+vnFT }
+QS "R_isnasal3" { *+anDT, *+enDT, *+angDT, *+engDT, *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT, *+uanDT, *+uenDT, *+uangDT, *+ongDT, *+vanDT, *+vnDT }
+QS "R_isopen3" { *+aDT, *+oDT, *+eDT, *+aiDT, *+eiDT, *+aoDT, *+ouDT, *+anDT, *+enDT, *+angDT, *+engDT, *+iiiDT, *+iiDT, *+erDT }
+QS "R_isqi3" { *+iDT, *+iaDT, *+ieDT, *+iaoDT, *+iouDT, *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT }
+QS "R_ishe3" { *+uDT, *+uaDT, *+uoDT, *+uaiDT, *+ueiDT, *+uanDT, *+uenDT, *+uangDT, *+ongDT }
+QS "R_iscuo3" { *+vDT, *+veDT, *+vanDT, *+vnDT }
+QS "R_isnasal2" { *+anRT, *+enRT, *+angRT, *+engRT, *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT, *+uanRT, *+uenRT, *+uangRT, *+ongRT, *+vanRT, *+vnRT }
+QS "R_isopen2" { *+aRT, *+oRT, *+eRT, *+aiRT, *+eiRT, *+aoRT, *+ouRT, *+anRT, *+enRT, *+angRT, *+engRT, *+iiiRT, *+iiRT, *+erRT }
+QS "R_isqi2" { *+iRT, *+iaRT, *+ieRT, *+iaoRT, *+iouRT, *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT }
+QS "R_ishe2" { *+uRT, *+uaRT, *+uoRT, *+uaiRT, *+ueiRT, *+uanRT, *+uenRT, *+uangRT, *+ongRT }
+QS "R_iscuo2" { *+vRT, *+veRT, *+vanRT, *+vnRT }
+QS "R_isnasal1" { *+anHT, *+enHT, *+angHT, *+engHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+vanHT, *+vnHT }
+QS "R_isopen1" { *+aHT, *+oHT, *+eHT, *+aiHT, *+eiHT, *+aoHT, *+ouHT, *+anHT, *+enHT, *+angHT, *+engHT, *+iiiHT, *+iiHT, *+erHT }
+QS "R_isqi1" { *+iHT, *+iaHT, *+ieHT, *+iaoHT, *+iouHT, *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT }
+QS "R_ishe1" { *+uHT, *+uaHT, *+uoHT, *+uaiHT, *+ueiHT, *+uanHT, *+uenHT, *+uangHT, *+ongHT }
+QS "R_iscuo1" { *+vHT, *+veHT, *+vanHT, *+vnHT }
+QS "R_isnasal4" { *+anFT, *+enFT, *+angFT, *+engFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT, *+vanFT, *+vnFT }
+QS "R_isopen4" { *+aFT, *+oFT, *+eFT, *+aiFT, *+eiFT, *+aoFT, *+ouFT, *+anFT, *+enFT, *+angFT, *+engFT, *+iiiFT, *+iiFT, *+erFT }
+QS "R_isqi4" { *+iFT, *+iaFT, *+ieFT, *+iaoFT, *+iouFT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_ishe4" { *+uFT, *+uaFT, *+uoFT, *+uaiFT, *+ueiFT, *+uanFT, *+uenFT, *+uangFT, *+ongFT }
+QS "R_iscuo4" { *+vFT, *+veFT, *+vanFT, *+vnFT }
+QS "R_isnasa" { *+anHT, *+anRT, *+anDT, *+anFT, *+angHT, *+angRT, *+angDT, *+angFT }
+QS "R_isnase" { *+enHT, *+enRT, *+enDT, *+enFT, *+engHT, *+engRT, *+engDT, *+engFT }
+QS "R_isnasi" { *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_isnasu" { *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT }
+QS "R_isnasv" { *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_isnasfr" { *+anHT, *+anRT, *+anDT, *+anFT, *+enHT, *+enRT, *+enDT, *+enFT, *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT, *+uanHT, *+uanRT, *+uanDT, *+uanFT, *+uenHT, *+uenRT, *+uenDT, *+uenFT, *+vanHT, *+vanRT, *+vanDT, *+vanFT, *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_isnasbk" { *+angHT, *+angRT, *+angDT, *+angFT, *+engHT, *+engRT, *+engDT, *+engFT, *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT, *+uangHT, *+uangRT, *+uangDT, *+uangFT, *+ongHT, *+ongRT, *+ongDT, *+ongFT }
+QS "R_isnasibk" { *+iangHT, *+iangRT, *+iangDT, *+iangFT, *+ingHT, *+ingRT, *+ingDT, *+ingFT, *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_isnasifr" { *+ianHT, *+ianRT, *+ianDT, *+ianFT, *+inHT, *+inRT, *+inDT, *+inFT }
+QS "R_isnasaT1T4" { *+anHT, *+angHT, *+anFT, *+angFT }
+QS "R_isnaseT1T4" { *+enHT, *+engHT, *+enFT, *+engFT }
+QS "R_isnasiT1T4" { *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT, *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_isnasuT1T4" { *+uanHT, *+uenHT, *+uangHT, *+ongHT, *+uanFT, *+uenFT, *+uangFT, *+ongFT }
+QS "R_isnasvT1T4" { *+vanHT, *+vnHT, *+vanFT, *+vnFT }
+QS "R_isnasfrT1T4" { *+anHT, *+enHT, *+ianHT, *+inHT, *+uanHT, *+uenHT, *+vanHT, *+vnHT, *+anFT, *+enFT, *+ianFT, *+inFT, *+uanFT, *+uenFT, *+vanFT, *+vnFT }
+QS "R_isnasbkT1T4" { *+angHT, *+engHT, *+iangHT, *+ingHT, *+iongHT, *+uangHT, *+ongHT, *+angFT, *+engFT, *+iangFT, *+ingFT, *+iongFT, *+uangFT, *+ongFT }
+QS "R_isnasibkT1T4" { *+iangHT, *+ingHT, *+iongHT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_isnasifrT1T4" { *+ianHT, *+inHT, *+ianFT, *+inFT }
+QS "R_isnasa3" { *+anDT, *+angDT }
+QS "R_isnase3" { *+enDT, *+engDT }
+QS "R_isnasi3" { *+ianDT, *+inDT, *+iangDT, *+ingDT, *+iongDT }
+QS "R_isnasu3" { *+uanDT, *+uenDT, *+uangDT, *+ongDT }
+QS "R_isnasv3" { *+vanDT, *+vnDT }
+QS "R_isnasfr3" { *+anDT, *+enDT, *+ianDT, *+inDT, *+uanDT, *+uenDT, *+vanDT, *+vnDT }
+QS "R_isnasbk3" { *+angDT, *+engDT, *+iangDT, *+ingDT, *+iongDT, *+uangDT, *+ongDT }
+QS "R_isnasibk3" { *+iangDT, *+ingDT, *+iongDT }
+QS "R_isnasifr3" { *+ianDT, *+inDT }
+QS "R_isnasa1" { *+anHT, *+angHT }
+QS "R_isnase1" { *+enHT, *+engHT }
+QS "R_isnasi1" { *+ianHT, *+inHT, *+iangHT, *+ingHT, *+iongHT }
+QS "R_isnasu1" { *+uanHT, *+uenHT, *+uangHT, *+ongHT }
+QS "R_isnasv1" { *+vanHT, *+vnHT }
+QS "R_isnasfr1" { *+anHT, *+enHT, *+ianHT, *+inHT, *+uanHT, *+uenHT, *+vanHT, *+vnHT }
+QS "R_isnasbk1" { *+angHT, *+engHT, *+iangHT, *+ingHT, *+iongHT, *+uangHT, *+ongHT }
+QS "R_isnasibk1" { *+iangHT, *+ingHT, *+iongHT }
+QS "R_isnasifr1" { *+ianHT, *+inHT }
+QS "R_isnasa2" { *+anRT, *+angRT }
+QS "R_isnase2" { *+enRT, *+engRT }
+QS "R_isnasi2" { *+ianRT, *+inRT, *+iangRT, *+ingRT, *+iongRT }
+QS "R_isnasu2" { *+uanRT, *+uenRT, *+uangRT, *+ongRT }
+QS "R_isnasv2" { *+vanRT, *+vnRT }
+QS "R_isnasfr2" { *+anRT, *+enRT, *+ianRT, *+inRT, *+uanRT, *+uenRT, *+vanRT, *+vnRT }
+QS "R_isnasbk2" { *+angRT, *+engRT, *+iangRT, *+ingRT, *+iongRT, *+uangRT, *+ongRT }
+QS "R_isnasibk2" { *+iangRT, *+ingRT, *+iongRT }
+QS "R_isnasifr2" { *+ianRT, *+inRT }
+QS "R_isnasa4_5" { *+anFT, *+angFT }
+QS "R_isnase4_5" { *+enFT, *+engFT }
+QS "R_isnasi4_5" { *+ianFT, *+inFT, *+iangFT, *+ingFT, *+iongFT }
+QS "R_isnasu4_5" { *+uanFT, *+uenFT, *+uangFT, *+ongFT }
+QS "R_isnasv4_5" { *+vanFT, *+vnFT }
+QS "R_isnasfr4_5" { *+anFT, *+enFT, *+ianFT, *+inFT, *+uanFT, *+uenFT, *+vanFT, *+vnFT }
+QS "R_isnasbk4_5" { *+angFT, *+engFT, *+iangFT, *+ingFT, *+iongFT, *+uangFT }
+QS "R_isnasibk4_5" { *+iangFT, *+ingFT, *+iongFT }
+QS "R_isnasifr4_5" { *+ianFT, *+inFT }
+QS "R_isstop" { *+b, *+d, *+g, *+p, *+t, *+k }
+QS "R_issaica" { *+f, *+s, *+sh, *+x, *+h, *+z, *+zh, *+j, *+c, *+ch, *+q }
+QS "R_issaifra" { *+z, *+zh, *+j, *+c, *+ch, *+q }
+QS "R_issaifras" { *+c, *+ch, *+q }
+QS "R_issaifr" { *+z, *+zh, *+j }
+QS "R_isnasc" { *+m, *+n }
+QS "R_isca" { *+f, *+s, *+sh, *+x, *+h }
+QS "R_issa" { *+b, *+d, *+g }
+QS "R_issaas" { *+p, *+t, *+k }
+QS "R_isl" { *+l }
+QS "R_isr" { *+r }
+QS "R_iszero" { *+aa, *+oo, *+ee, *+ih, *+uu, *+vv }
+QS "R_a" { *+aHT, *+aRT, *+aDT, *+aFT }
+QS "R_ai" { *+aiHT, *+aiRT, *+aiDT, *+aiFT }
+QS "R_an" { *+anHT, *+anRT, *+anDT, *+anFT }
+QS "R_ang" { *+angHT, *+angRT, *+angDT, *+angFT }
+QS "R_ao" { *+aoHT, *+aoRT, *+aoDT, *+aoFT }
+QS "R_e" { *+eHT, *+eRT, *+eDT, *+eFT }
+QS "R_ei" { *+eiHT, *+eiRT, *+eiDT, *+eiFT }
+QS "R_en" { *+enHT, *+enRT, *+enDT, *+enFT }
+QS "R_eng7" { *+engHT, *+engRT, *+engDT, *+engFT }
+QS "R_er" { *+erHT, *+erRT, *+erDT, *+erFT }
+QS "R_i" { *+iHT, *+iRT, *+iDT, *+iFT }
+QS "R_ia" { *+iaHT, *+iaRT, *+iaDT, *+iaFT }
+QS "R_ian" { *+ianHT, *+ianRT, *+ianDT, *+ianFT }
+QS "R_iang" { *+iangHT, *+iangRT, *+iangDT, *+iangFT }
+QS "R_iao" { *+iaoHT, *+iaoRT, *+iaoDT, *+iaoFT }
+QS "R_ie7" { *+ieHT, *+ieRT, *+ieDT, *+ieFT }
+QS "R_in" { *+inHT, *+inRT, *+inDT, *+inFT }
+QS "R_ing" { *+ingHT, *+ingRT, *+ingDT, *+ingFT }
+QS "R_iong" { *+iongHT, *+iongRT, *+iongDT, *+iongFT }
+QS "R_iou" { *+iouHT, *+iouRT, *+iouDT, *+iouFT }
+QS "R_iii" { *+iiiHT, *+iiiRT, *+iiiDT, *+iiiFT }
+QS "R_ii" { *+iiHT, *+iiRT, *+iiDT, *+iiFT }
+QS "R_o" { *+oHT, *+oRT, *+oDT, *+oFT }
+QS "R_ong" { *+ongHT, *+ongRT, *+ongDT, *+ongFT }
+QS "R_ou" { *+ouHT, *+ouRT, *+ouDT, *+ouFT }
+QS "R_u" { *+uHT, *+uRT, *+uDT, *+uFT }
+QS "R_ua" { *+uaHT, *+uaRT, *+uaDT, *+uaFT }
+QS "R_uai" { *+uaiHT, *+uaiRT, *+uaiDT, *+uaiFT }
+QS "R_uan" { *+uanHT, *+uanRT, *+uanDT, *+uanFT }
+QS "R_uang" { *+uangHT, *+uangRT, *+uangDT, *+uangFT }
+QS "R_uei" { *+ueiHT, *+ueiRT, *+ueiDT, *+ueiFT }
+QS "R_uen" { *+uenHT, *+uenRT, *+uenDT, *+uenFT }
+QS "R_uo" { *+uoHT, *+uoRT, *+uoDT, *+uoFT }
+QS "R_v" { *+vHT, *+vRT, *+vDT, *+vFT }
+QS "R_van" { *+vanHT, *+vanRT, *+vanDT, *+vanFT }
+QS "R_ve" { *+veHT, *+veRT, *+veDT, *+veFT }
+QS "R_vn" { *+vnHT, *+vnRT, *+vnDT, *+vnFT }
+QS "R_a_a" { *+aHT, *+aRT, *+aFT }
+QS "R_ai0" { *+aiHT, *+aiRT, *+aiFT }
+QS "R_an0" { *+anHT, *+anRT, *+anFT }
+QS "R_ang0" { *+angHT, *+angRT, *+angFT }
+QS "R_ao0" { *+aoHT, *+aoRT, *+aoFT }
+QS "R_e0" { *+eHT, *+eRT, *+eFT }
+QS "R_ei0" { *+eiHT, *+eiRT, *+eiFT }
+QS "R_en0" { *+enHT, *+enRT, *+enFT }
+QS "R_eng8" { *+engHT, *+engRT, *+engFT }
+QS "R_er0" { *+erHT, *+erRT, *+erFT }
+QS "R_i0" { *+iHT, *+iRT, *+iFT }
+QS "R_ia0" { *+iaHT, *+iaRT, *+iaFT }
+QS "R_ian0" { *+ianHT, *+ianRT, *+ianFT }
+QS "R_iang0" { *+iangHT, *+iangRT, *+iangFT }
+QS "R_iao0" { *+iaoHT, *+iaoRT, *+iaoFT }
+QS "R_ie8" { *+ieHT, *+ieRT, *+ieFT }
+QS "R_in0" { *+inHT, *+inRT, *+inFT }
+QS "R_ing0" { *+ingHT, *+ingRT, *+ingFT }
+QS "R_iong0" { *+iongHT, *+iongRT, *+iongFT }
+QS "R_iou0" { *+iouHT, *+iouRT, *+iouFT }
+QS "R_iii0" { *+iiiHT, *+iiiRT, *+iiiFT }
+QS "R_ii0" { *+iiHT, *+iiRT, *+iiFT }
+QS "R_o0" { *+oHT, *+oRT, *+oFT }
+QS "R_ong0" { *+ongHT, *+ongRT, *+ongFT }
+QS "R_ou0" { *+ouHT, *+ouRT, *+ouFT }
+QS "R_u0" { *+uHT, *+uRT, *+uFT }
+QS "R_ua0" { *+uaHT, *+uaRT, *+uaFT }
+QS "R_uai0" { *+uaiHT, *+uaiRT, *+uaiFT }
+QS "R_uan0" { *+uanHT, *+uanRT, *+uanFT }
+QS "R_uang0" { *+uangHT, *+uangRT, *+uangFT }
+QS "R_uei0" { *+ueiHT, *+ueiRT, *+ueiFT }
+QS "R_uen0" { *+uenHT, *+uenRT, *+uenFT }
+QS "R_uo0" { *+uoHT, *+uoRT, *+uoFT }
+QS "R_v0" { *+vHT, *+vRT, *+vFT }
+QS "R_van0" { *+vanHT, *+vanRT, *+vanFT }
+QS "R_ve0" { *+veHT, *+veRT, *+veFT }
+QS "R_vn0" { *+vnHT, *+vnRT, *+vnFT }
+QS "R_a_a14" { *+aHT, *+aFT }
+QS "R_ai014" { *+aiHT, *+aiFT }
+QS "R_an014" { *+anHT, *+anFT }
+QS "R_ang014" { *+angHT, *+angFT }
+QS "R_ao014" { *+aoHT, *+aoFT }
+QS "R_e014" { *+eHT, *+eFT }
+QS "R_ei014" { *+eiHT, *+eiFT }
+QS "R_en014" { *+enHT, *+enFT }
+QS "R_eng814" { *+engHT, *+engFT }
+QS "R_er014" { *+erHT, *+erFT }
+QS "R_i014" { *+iHT, *+iFT }
+QS "R_ia014" { *+iaHT, *+iaFT }
+QS "R_ian014" { *+ianHT, *+ianFT }
+QS "R_iang014" { *+iangHT, *+iangFT }
+QS "R_iao014" { *+iaoHT, *+iaoFT }
+QS "R_ie814" { *+ieHT, *+ieFT }
+QS "R_in014" { *+inHT, *+inFT }
+QS "R_ing014" { *+ingHT, *+ingFT }
+QS "R_iong014" { *+iongHT, *+iongFT }
+QS "R_iou014" { *+iouHT, *+iouFT }
+QS "R_iii014" { *+iiiHT, *+iiiFT }
+QS "R_ii014" { *+iiHT, *+iiFT }
+QS "R_o014" { *+oHT, *+oFT }
+QS "R_ong014" { *+ongHT, *+ongFT }
+QS "R_ou014" { *+ouHT, *+ouFT }
+QS "R_u014" { *+uHT, *+uFT }
+QS "R_ua014" { *+uaHT, *+uaFT }
+QS "R_uai014" { *+uaiHT, *+uaiFT }
+QS "R_uan014" { *+uanHT, *+uanFT }
+QS "R_uang014" { *+uangHT, *+uangFT }
+QS "R_uei014" { *+ueiHT, *+ueiFT }
+QS "R_uen014" { *+uenHT, *+uenFT }
+QS "R_uo014" { *+uoHT, *+uoFT }
+QS "R_v014" { *+vHT, *+vFT }
+QS "R_van014" { *+vanHT, *+vanFT }
+QS "R_ve014" { *+veHT, *+veFT }
+QS "R_vn014" { *+vnHT, *+vnFT }
+QS "R_a1" { *+aHT }
+QS "R_a2" { *+aRT }
+QS "R_a3" { *+aDT }
+QS "R_a4" { *+aFT }
+QS "R_ai1" { *+aiHT }
+QS "R_ai2" { *+aiRT }
+QS "R_ai3" { *+aiDT }
+QS "R_ai4" { *+aiFT }
+QS "R_an1" { *+anHT }
+QS "R_an2" { *+anRT }
+QS "R_an3" { *+anDT }
+QS "R_an4" { *+anFT }
+QS "R_ang1" { *+angHT }
+QS "R_ang2" { *+angRT }
+QS "R_ang3" { *+angDT }
+QS "R_ang4" { *+angFT }
+QS "R_ao1" { *+aoHT }
+QS "R_ao2" { *+aoRT }
+QS "R_ao3" { *+aoDT }
+QS "R_ao4" { *+aoFT }
+QS "R_e1" { *+eHT }
+QS "R_e2" { *+eRT }
+QS "R_e3" { *+eDT }
+QS "R_e4" { *+eFT }
+QS "R_ei1" { *+eiHT }
+QS "R_ei2" { *+eiRT }
+QS "R_ei3" { *+eiDT }
+QS "R_ei4" { *+eiFT }
+QS "R_en1" { *+enHT }
+QS "R_en2" { *+enRT }
+QS "R_en3" { *+enDT }
+QS "R_en4" { *+enFT }
+QS "R_eng1" { *+engHT }
+QS "R_eng2" { *+engRT }
+QS "R_eng3" { *+engDT }
+QS "R_eng4" { *+engFT }
+QS "R_er1" { *+erHT }
+QS "R_er2" { *+erRT }
+QS "R_er3" { *+erDT }
+QS "R_er4" { *+erFT }
+QS "R_i1" { *+iHT }
+QS "R_i2" { *+iRT }
+QS "R_i3" { *+iDT }
+QS "R_i4" { *+iFT }
+QS "R_ia1" { *+iaHT }
+QS "R_ia2" { *+iaRT }
+QS "R_ia3" { *+iaDT }
+QS "R_ia4" { *+iaFT }
+QS "R_ian1" { *+ianHT }
+QS "R_ian2" { *+ianRT }
+QS "R_ian3" { *+ianDT }
+QS "R_ian4" { *+ianFT }
+QS "R_iang1" { *+iangHT }
+QS "R_iang2" { *+iangRT }
+QS "R_iang3" { *+iangDT }
+QS "R_iang4" { *+iangFT }
+QS "R_iao1" { *+iaoHT }
+QS "R_iao2" { *+iaoRT }
+QS "R_iao3" { *+iaoDT }
+QS "R_iao4" { *+iaoFT }
+QS "R_ie1" { *+ieHT }
+QS "R_ie2" { *+ieRT }
+QS "R_ie3" { *+ieDT }
+QS "R_ie4" { *+ieFT }
+QS "R_in1" { *+inHT }
+QS "R_in2" { *+inRT }
+QS "R_in3" { *+inDT }
+QS "R_in4" { *+inFT }
+QS "R_ing1" { *+ingHT }
+QS "R_ing2" { *+ingRT }
+QS "R_ing3" { *+ingDT }
+QS "R_ing4" { *+ingFT }
+QS "R_iong1" { *+iongHT }
+QS "R_iong2" { *+iongRT }
+QS "R_iong3" { *+iongDT }
+QS "R_iong4" { *+iongFT }
+QS "R_iou1" { *+iouHT }
+QS "R_iou2" { *+iouRT }
+QS "R_iou3" { *+iouDT }
+QS "R_iou4" { *+iouFT }
+QS "R_iii1" { *+iiiHT }
+QS "R_iii2" { *+iiiRT }
+QS "R_iii3" { *+iiiDT }
+QS "R_iii4" { *+iiiFT }
+QS "R_ii1" { *+iiHT }
+QS "R_ii2" { *+iiRT }
+QS "R_ii3" { *+iiDT }
+QS "R_ii4" { *+iiFT }
+QS "R_o1" { *+oHT }
+QS "R_o2" { *+oRT }
+QS "R_o3" { *+oDT }
+QS "R_o4" { *+oFT }
+QS "R_ong1" { *+ongHT }
+QS "R_ong2" { *+ongRT }
+QS "R_ong3" { *+ongDT }
+QS "R_ong4" { *+ongFT }
+QS "R_ou1" { *+ouHT }
+QS "R_ou2" { *+ouRT }
+QS "R_ou3" { *+ouDT }
+QS "R_ou4" { *+ouFT }
+QS "R_u1" { *+uHT }
+QS "R_u2" { *+uRT }
+QS "R_u3" { *+uDT }
+QS "R_u4" { *+uFT }
+QS "R_ua1" { *+uaHT }
+QS "R_ua2" { *+uaRT }
+QS "R_ua3" { *+uaDT }
+QS "R_ua4" { *+uaFT }
+QS "R_uai1" { *+uaiHT }
+QS "R_uai2" { *+uaiRT }
+QS "R_uai3" { *+uaiDT }
+QS "R_uai4" { *+uaiFT }
+QS "R_uan1" { *+uanHT }
+QS "R_uan2" { *+uanRT }
+QS "R_uan3" { *+uanDT }
+QS "R_uan4" { *+uanFT }
+QS "R_uang1" { *+uangHT }
+QS "R_uang2" { *+uangRT }
+QS "R_uang3" { *+uangDT }
+QS "R_uang4" { *+uangFT }
+QS "R_uei1" { *+ueiHT }
+QS "R_uei2" { *+ueiRT }
+QS "R_uei3" { *+ueiDT }
+QS "R_uei4" { *+ueiFT }
+QS "R_uen1" { *+uenHT }
+QS "R_uen2" { *+uenRT }
+QS "R_uen3" { *+uenDT }
+QS "R_uen4" { *+uenFT }
+QS "R_uo1" { *+uoHT }
+QS "R_uo2" { *+uoRT }
+QS "R_uo3" { *+uoDT }
+QS "R_uo4" { *+uoFT }
+QS "R_v1" { *+vHT }
+QS "R_v2" { *+vRT }
+QS "R_v3" { *+vDT }
+QS "R_v4" { *+vFT }
+QS "R_van1" { *+vanHT }
+QS "R_van2" { *+vanRT }
+QS "R_van3" { *+vanDT }
+QS "R_van4" { *+vanFT }
+QS "R_ve1" { *+veHT }
+QS "R_ve2" { *+veRT }
+QS "R_ve3" { *+veDT }
+QS "R_ve4" { *+veFT }
+QS "R_vn1" { *+vnHT }
+QS "R_vn2" { *+vnRT }
+QS "R_vn3" { *+vnDT }
+QS "R_vn4" { *+vnFT }
+QS "R_b" { *+b }
+QS "R_c" { *+c }
+QS "R_ch" { *+ch }
+QS "R_d" { *+d }
+QS "R_f" { *+f }
+QS "R_g" { *+g }
+QS "R_h" { *+h }
+QS "R_j" { *+j }
+QS "R_k" { *+k }
+QS "R_l" { *+l }
+QS "R_m" { *+m }
+QS "R_n" { *+n }
+QS "R_oo" { *+oo }
+QS "R_p" { *+p }
+QS "R_q" { *+q }
+QS "R_r" { *+r }
+QS "R_s" { *+s }
+QS "R_sh" { *+sh }
+QS "R_t" { *+t }
+QS "R_uu" { *+uu }
+QS "R_vv" { *+vv }
+QS "R_aa" { *+aa }
+QS "R_ee" { *+ee }
+QS "R_ih" { *+ih }
+QS "R_x" { *+x }
+QS "R_z" { *+z }
+QS "R_zh" { *+zh }

@@ -1,0 +1,254 @@
+Help File For TFRONTm             tfrontm.hlp
+
+       Dec 27, 1995
+       JAN 5, 1996  Feb 9, 1996  Feb 17, 1996
+       Feb 22, 1996  Feb 24, 1996
+       Feb 28, 1996
+       Mar 1, 1996
+       November 7, 1996
+       July 8, 1997   Sept 11, 1997
+       July 5, 1999, March 5, 2000
+       March 10, 2005
+       October 15, 2010,  comments on DCTC2 processing
+       November 5, 2010,  more comments on DCTC2 processing
+       Feb 07, 2011, more non-symmetric window functions available
+
+ TFRONTm.HLP
+
+   This program is used to process segments using DCTC/DCS analysis
+   extracted from TIMIT or wav format  acoustic sampled-data files.
+
+   To use this program you must have the following set up files
+
+       TFRONT.DAT:        general set up
+       TPHONE.DAT:        (Not needed if FrmSelMeth = 0)
+                          list of phones to process and conditions for phones
+       SENTENCE.DAT:      list of acoustic files to process
+       CP_FEA13.INI:      details of analysis conditions
+
+       TFRONT specifies the method for selecting segments and the list
+       of feature file names which will be created.
+
+   FrmSelMeth can be
+        0   to process entire file.  For this case *.phn files are not used
+            at all.  The input files may either be
+            TIMIT wave files Microsoft wave files, or raw (no header)
+            binary files.  The file reading program
+            automatically determines this. (The program will need to be edited
+            to supply a sampling rate if raw files are used ??.)
+
+            Note that start times and stop times are relative to the ends
+            of the file for this case.  Start times
+            should be positive and stop times should be negative.
+            The Seg_lnth variable is used to determine  the size of
+            individual "chunks" of data which are processed by TFRONTM.
+            Thus if a long file is to  be processed, it will actually be
+            processed as several segments.  This method greatly  reduces the
+             memory requirements of CP_FEA13.  Since an integer number of chunks
+             will be processed, the  end of the file may not be used.
+             The Seg_lnth should be quite short, but at least one block length
+            long.
+
+
+
+       The output file names will of the form:
+               namexxx.par
+               where
+                    name   is read from TFRONT.DAT file (see below)
+                    xxx     is a number from 0001 to 9990 giving index
+                               of output file
+                            With this option,  output file names are in the
+                            folder where tfrontm is run
+
+               Alternatively, another option is used to create feature file
+               names with the same file name as original wav files, but
+               optionally placed in different output folders
+
+
+
+        2   to process segment using labeling information from *.phn files
+            but modified by start and stop  times in TFRONT.DAT.
+             See example below.
+
+        3   to process segment at start time (using start time from TIMIT label,
+              but modified by  STARTT variable in TFRONT.DAT)
+              and as stop time as stop time + labeled start time
+              See example below.
+               (For this case, stop - start   must be positive)
+        4   to process segment with start and stop times relative to labeled
+             midpoint in *.phn files.
+            See example below.
+               (For this case, stop - start   must be positive)
+         5   to process segment with start and stop times relative to labeled 
+              endpoint  in *.phn file   (this option  no  longer in code-- was only there temporarly)
+
+  CPFEAT_TYPE 
+       DCTC1  DCTC/DCS using unifrom time warping factor
+       DCTC2  DCTC/DCS using variable time warping factor over frequency
+       DCTC3  using two different block lengths,  and differing number
+              of DCS terms depending on block length--  not checked in detail
+
+Examples:
+
+        To process entire file beginning 50 msec after the beginning of the file up to 30 msec from the end of 
+        the file, using 200 msec chunks.  Note that if the file is 2 seconds of data (2000 msec, this set up will 
+        actually result in 1800 msec of processed data starting at 50 msec, since there is not enough data for 
+        one more segment)
+
+        startt     =  50.0     ! if negative, this will be set to 0.0
+        stopt      = -30.0    ! if positive this will be set to 0.0
+        Seg_lnth   = 200
+        FrmSelMeth = 0
+
+
+        To process labeled segment beginning 20 msec before labeled start point
+         and 10 msec after end of labeled stop point
+
+
+        startt     = -20.0
+        stopt      = 10
+        Seg_lnth   = not used, except for dimensioning arrays
+                  (Note that Segment_time in the CP_FEA13.INI file must be at
+                  least as long as longest  segment to be encountered,
+                  so that arrays are dimensioned properly.
+                   Except see comments on
+                  blk_len from TFRONT.DAT file below.)
+        FrmSelMeth  = 2
+
+
+        Thus to process a 200 msec segment beginning 100 msec prior to start of labeled segment (using 
+        TIMIT label) use
+
+        startt         = -100
+        stopt          =  100
+        Seg_lnth       =  used for dimensioning arrays
+        FrmSelMeth       = 3
+
+
+        To process labeled segment beginning 150 msec before labeled midpoint
+         and 150 msec after end of
+        labeled midpoint of segment
+
+        start   = -150.0
+        stopt   =  150.0
+        Seg_lnth  = not used, except for dimensioning arrays
+                        (Note that Segment_time in the CP_FEA13.INI file must be at least as long as longest 
+                        segment to be encountered, so that arrays are dimensioned properly.   Except see 
+                        comments on blk_len from TFRONT.DAT file below.)
+        FrmSelMeth  = 4
+	
+
+
+There are no other options for selection at this time.
+Note that in cases where Seg_lnth is not used,
+arrays in the feature computation section of the program are 
+dimensioned based on this.   If this parameter is a small number,
+the arrays are set assuming no more than 
+25000 points of signal constitute one phone   (Nov 7, 1996).
+
+
+
+
+Notes added on  Oct 15, 2010,  regarding version 76.0p   and DCTC2  processing
+
+
+Notes on frequency warping (applies to DCTC1 and DCTC2)
+
+
+two types of warping
+
+MEL--   ranges from DCTC_warp of ~.05 (lots of warping)
+        to ~3 (very little warp)   typical warp values of .25  to .45, with .45
+        less warping than .25
+
+BILINEAR   ranges from DCTC_warp of ~.05 (little warp)  to ~ .75 (over warped)
+           tyical values of warp .25 to .45,  with .45 more warping than .25
+
+
+for the DCTC2  processing,   we no  longer use 2D  basis vectors,  but
+     instead use different DCS basis vector sets for each frequency.   There is
+     one set of DCTC basis vectors
+
+     The time warping for the lowest frequency DCS basis vectors is set
+     by  time_warp_fact.     the time warping is gradually increased to
+     highest level at the highest frequencies,   using  the "amount"  of frequency
+     warping  to control the degree to which the time warping changes
+     that is,  with high amount of frequency warping,  there  will also be a
+     large amount of time warping.
+
+
+Thus the entire control of the effects of the DCTC2  is determined by the
+     DCTC_warp_fact  and the time_warp_fact.    DCTC_warp_fact1,  DCTC_warp_fact2,
+     time_warp_fact1,  time_warp_fact2  have no effect
+
+
+VARIABLE  frame length
+
+    There is also an option for varying frame length,  as a function of frequency
+    This is enabled with the vary_frm_len   flag.    If this is chosen (could
+    be for any type of DCTC processing),  the frame length is longest for
+    low frequencies, and  shortest for high frequencies.
+
+    the  longest frame length is given by frame_time--  the shortest
+    frame length is given by frame_time2.     The rates
+    at which the frame lengths vary is controlled by the frequency
+    warping.
+
+    Note this processing   then uses muliple FFTs  for each "super"  frame
+    since several  different frames are selected from the original frame
+    All frames for one super frame  have same center poiunt
+
+
+
+
+Notes added on November 5, 2010
+
+
+    DCTC2  method for the way the time resolution  changes with frequency
+           has been changed
+
+           Now  Block_length_beg   sets the block length for lowest freq
+                Block_length_end   sets the block length for highest freq
+
+
+    All DCS   basis vectors   are computed with the same  time warp factor
+         which is  call  time_warp_fact
+
+
+
+DCTC3    another option for variable time resolution
+
+
+
+Notes added on Feb 7, 2011
+
+ There are two time warping functions are added in NLWARP.m.   Worked for 
+both DCTC1 and DCTC2.
+
+    A separately controlled Gaussian window can be called by "NONSYM" in 
+tfront.dat. This window can make BVT to differently emphasize on the 
+different time portion of each block.
+
+    An exponetial window can called by "EXPONE" in tfront.dat, which 
+features from its exponential shape of window(highest result claimed in 
+Schawtz's work)
+
+Notes  added on Nov 25,  2012
+
+     there are four types of beginning spectral  analysis
+
+    spec_type  = 1     default,  standard FFT analysis
+    spect_type = 2     gammatone FFT filter bank
+    spect_type = 3     gammatone real fitlers
+    spec_type  = 4   mel fft triangle filter banks   (details may be incorrect)
+
+ Several options for nonliner spectral amaplitude scaling
+     There are options for power function coding
+    fill  in details
+
+Pitch    
+    spare1 =  0    consider as all voiced
+              1     make vocing decisions
+    Note that if pitch is used as a parameter,   the last dctc is replaced by pitch,  and expaned with DCS terms
+      Thus, for example,   if 8 dctcs are selected,  plus pitch,  plus 3 dcs,   really  there
+         will be 24 features   (7 dctc *  3 dcs  +  pitch * 3 dcs)

@@ -1,0 +1,79 @@
+<BEGIN_config>
+
+<Comment>
+This tool trains a language model
+This tool supports two methods: 
+1. Use the acoustic data transcription to build a simple bigram (method 1)
+2. A more complex way to build n-gram specified by users. (method 2)
+
+<BEGINtool_steps>
+% =============================== Global Settings ===========================================================================================
+
+Trace_on : y                                                 % y enables the progress report for each tool (default y)
+                                                             % n means only to show the current command line
+Train_on : y                                                 % Enable LM training or not, y/n
+Convert_on : n                                               % Convert bigram to word network, y/n 
+LogDir :   Log                                               % This is the folder to store the progress log file.
+                                                             % A progress_trainLM.log will be generated in this folder.
+% ================================ End Global Settings =======================================================================================
+
+% ================================= Simple method 1 ==========================================================================================
+method1_on : n                                               % Turn on method1 or not, y/n
+Startword1 : SENT_START                                      % a startword will be prefixed before each sentence
+Endword1 : SENT_END                                          % an endword will be appended after each sentence
+OptString : "-u 0 -t 0"                                      % -u is the unigram floor count;-t is the bigram count threshold
+Discount: 0.5                                                % this is the discount factor
+ 
+               %------------ Input files by method 1 -----------------------
+datalist1 : lists\LMdata_trs.lst                             % This is the transcription list
+               %------------ Output files by method 1 ----------------------
+LM_folder1 : LMs                                             % This is the folder to store output LM
+LM_name1 : bigram1                                           % This is the output bigram file name.
+wordlist : lists\wordlist_abc                                % This is the output wordlist in the LM
+% =================================== End Simple method 1 ======================================================================================
+
+% =================================== Method 2 =================================================================================================
+% Note: this method does not return a word list. You need to manually creates it.
+
+method2_on : y                                               % Turn on method 2 or not y/n
+Startword2 : SENT_START                                      % specify the startword as in the text data.
+Endword2 : SENT_END                                          % specify the endword as in the text data.
+LM_order : 2                                                 % 1:unigram; 2:bigram; 3:trigram; etc.
+DCtype: TG                                                   % this is the discount type: TG for Good_Turing, ABS for absolute discounting
+cutoffs :  0                                                 % Cutoff factors for each n-gram (n>1). Length must equal LM_order-1 (for LM_order>1)
+                                                                 % example: 1;1 means cutoff factor 1 for both bigram and trigram in the final trigram LM.
+                                                                 % 0 disables cutoff for corresponding n-gram
+                                                                 % If LM_order=1 (unigram), cutoff is disabled automatically
+LM_format : text                                             % LM format: text or binary
+Max_vocab : 100000                                           % Maximum number of words the LM is able to handle
+               %------------- Input files by method 2 ------------------------
+datalist2 : lists\LMdata_text.lst                            % This is the text data list.
+vocabulary : lists\wordlist_abcd                                  % This is the vacabulary of the LM
+                                                                 % OOV words will be mapped to !!UNK
+                                                                 % Setting to none means no vocabulary provided. All the words in text will be preserved
+                                                                 % The vocabulary must NOT contain !!UNK
+               %------------- Output files by method 2 -----------------------
+LM_folder2 : LMs                                             % This is the folder to store output LM
+LM_name2 : bigram2                                           % This is the output LM name.
+% =================================== End method 2 ================================================================================================
+
+% =================================== Convert the bigram to a word netwrok ========================================================================
+% Note: This step only works for bigram. It requires a word list.
+
+Startword : SENT_START                                        % Specify the start word of the LM. Must match the one used in the LM
+                                                              
+Endword : SENT_END                                            % Specify the end word of the LM. Must match the one used in the LM
+                                                               
+           
+       % -------------- Input files by this step -----------------------
+Bigram: LMs\bigram_abc                                           % Specify the bigram file path
+wrdlist : lists\wordlist_abcd_unk                                % Specify the wordlist which covers the bigram (including startword and endword also)
+                                                                 % If LM contains !!UNK, then, the wordlist must also contains !!UNK
+               % -------------- Output files by this step ----------------------
+Network_folder : Networks                                     % Specify the folder to store output network
+Network_name : network                                        % Specify the network file name
+% ====================================== End Conversion ============================================================================================   
+
+
+<ENDtool_steps>
+
